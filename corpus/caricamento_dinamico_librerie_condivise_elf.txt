@@ -1,0 +1,2 @@
+Il collegatore dinamico risolve i riferimenti simbolici esterni al momento dell'avvio o durante l'esecuzione condividendo una singola copia fisica del codice tra piu processi.
+Le tabelle di indirizzamento indiretto consentono la rilocazione del codice indipendente dalla posizione.

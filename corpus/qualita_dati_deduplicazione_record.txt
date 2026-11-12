@@ -1,0 +1,2 @@
+Le procedure di pulizia individuano valori mancanti, violazioni di vincoli referenziali e duplicati approssimati generati da errori di digitazione.
+Le tecniche di record linkage confrontano coppie di tuple all'interno di blocchi candidati mediante metriche di similarita tra stringhe.

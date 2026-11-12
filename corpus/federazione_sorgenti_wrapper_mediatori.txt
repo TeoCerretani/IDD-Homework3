@@ -1,0 +1,2 @@
+Le architetture federate interrogano basi informative distribuite lasciando i depositi sotto il controllo locale delle rispettive organizzazioni.
+Appositi adattatori traducono le sotto-interrogazioni nel dialetto nativo di ciascuna sorgente remota.

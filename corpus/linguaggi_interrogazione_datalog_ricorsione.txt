@@ -1,0 +1,2 @@
+La programmazione logica dichiarativa esprime interrogazioni ricorsive su grafi mediante regole deduttive valutate fino al raggiungimento del punto fisso.
+La stratificazione dei predicati negati garantisce l'esistenza e l'unicita del modello minimale associato al programma.

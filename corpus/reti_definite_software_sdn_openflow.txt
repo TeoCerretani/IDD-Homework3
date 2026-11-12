@@ -1,0 +1,2 @@
+La separazione tra il piano di controllo centralizzato e il piano di inoltro distribuito consente di programmare dinamicamente il comportamento degli apparati di commutazione.
+Il controllore globale installa regole di corrispondenza e azione nelle tabelle di flusso degli switch.

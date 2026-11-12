@@ -1,4 +1,4 @@
 Le basi di dati relazionali organizzano le informazioni in tabelle composte da righe (tuple) e colonne (attributi), secondo il modello formale introdotto da Edgar F. Codd.
 Il linguaggio standard per l'interrogazione e la manipolazione dei dati è SQL (Structured Query Language), che consente di esprimere selezioni, proiezioni e giunzioni (join) tra relazioni diverse.
-Un sistema di gestione di basi di dati (DBMS) garantisce le proprietà ACID delle transazioni: atomicità, consistenza, isolamento e durabilità, assicurando l'integrità dei dati anche in presenza di accessi concorrenti o guasti di sistema.
+Un sistema di gestione di basi di dati (DBMS) garantisce le proprietà ACID delle transazioni: atomicità, consistenza, isolamento e durabilità, assicurando l'integrità dei dati anche in presenza di accessi concorrenti, malfunzionamenti hardware o improvvisi guasti operativi di sistema.
 

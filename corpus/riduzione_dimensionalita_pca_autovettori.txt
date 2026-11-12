@@ -1,0 +1,2 @@
+L'analisi delle componenti principali proietta le osservazioni lungo le direzioni ortogonali di massima varianza individuate dagli autovettori della matrice di covarianza.
+La compressione delle variabili ridondanti attenua la maledizione della dimensionalita e agevola la visualizzazione bidimensionale.

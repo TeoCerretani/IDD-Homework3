@@ -1,0 +1,2 @@
+Gli archivi orientati agli aggregati memorizzano strutture gerarchiche nidificate codificate in formato binario autosufficiente.
+La localita fisica dell'intero oggetto composito evita costose operazioni di ricomposizione relazionale in fase di lettura.

@@ -1,0 +1,2 @@
+Le piattaforme dedicate alle serie temporali acquisiscono flussi continui di misurazioni indicizzate per istante di campionamento ed etichetta della sorgente.
+Politiche automatiche di compattazione aggregano i campioni storici riducendo la granularita dei periodi meno recenti.

@@ -1,0 +1,2 @@
+La mancata convalida degli input forniti dall'utente permette a un aggressore di alterare la struttura sintattica dei comandi destinati all'interprete.
+L'adozione sistematica di istruzioni parametrizzate e la codifica contestuale dell'output neutralizzano i vettori di iniezione.

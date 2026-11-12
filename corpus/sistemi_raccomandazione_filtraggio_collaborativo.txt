@@ -1,0 +1,2 @@
+La fattorizzazione della matrice sparsa delle valutazioni utente-articolo individua fattori latenti condivisi che catturano i gusti impliciti dei consumatori.
+L'approccio ibrido combina le preferenze della comunita con i descrittori contenutistici dei prodotti per mitigare il problema dell'avvio a freddo.

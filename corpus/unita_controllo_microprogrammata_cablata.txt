@@ -1,0 +1,2 @@
+La generazione dei segnali di comando che governano il percorso dei registri interni puo essere realizzata mediante reti logiche combinatorie veloci o memorie di microcodice.
+L'approccio cablato prevale nei disegni a insieme ridotto di istruzioni dove la regolarita del formato semplifica la decodifica.

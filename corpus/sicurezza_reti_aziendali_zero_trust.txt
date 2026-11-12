@@ -1,0 +1,2 @@
+Il superamento del perimetro fiduciario tradizionale richiede la verifica continua dell'identita, del contesto e della postura di sicurezza per ogni singola richiesta di accesso.
+La micro-segmentazione limita i movimenti laterali all'interno del centro di calcolo.

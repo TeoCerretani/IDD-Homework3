@@ -1,0 +1,2 @@
+Il riutilizzo di rappresentazioni pre-addestrate su collezioni generaliste consente di adattare un classificatore a domini specialistici disponendo di pochi esempi etichettati.
+Il congelamento degli strati iniziali preserva gli estrattori di caratteristiche elementari aggiornando solo i livelli terminali.

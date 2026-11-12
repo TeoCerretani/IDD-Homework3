@@ -1,0 +1,2 @@
+In presenza di giudizi di rilevanza su scala multipla, il guadagno cumulativo scontato attribuisce un peso logaritmicamente decrescente alle posizioni inferiori della classifica.
+La normalizzazione rispetto all'ordinamento ideale consente di confrontare interrogazioni con differente numerosita di risposte ottime.

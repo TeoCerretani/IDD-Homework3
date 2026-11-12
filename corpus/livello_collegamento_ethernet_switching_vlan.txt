@@ -1,0 +1,2 @@
+I commutatori di livello due apprendono dinamicamente la posizione delle interfacce osservando gli indirizzi fisici sorgente delle trame in transito.
+La segmentazione in reti locali virtuali isola logicamente i domini di diffusione sul medesimo cablaggio strutturato.

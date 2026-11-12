@@ -1,0 +1,2 @@
+Nelle sovrareti paritarie prive di coordinamento centrale ciascun nodo partecipa sia alla fruizione sia alla fornitura delle risorse condivise.
+Le tabelle hash distribuite organizzano l'anello degli identificativi garantendo la localizzazione di qualunque chiave in un numero logaritmico di salti.

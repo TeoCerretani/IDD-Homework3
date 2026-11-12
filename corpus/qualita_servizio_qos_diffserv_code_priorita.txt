@@ -1,0 +1,2 @@
+Le applicazioni multimediali interattive richiedono garanzie stringenti sul ritardo massimo di consegna e sulla variazione del tempo di interarrivo.
+La classificazione dei flussi all'ingresso del dominio e la gestione attiva delle code proteggono il traffico vocale dalle raffiche elastiche.

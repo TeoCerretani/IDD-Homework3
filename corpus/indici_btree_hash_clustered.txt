@@ -1,0 +1,2 @@
+Le strutture ad albero bilanciato mantengono le chiavi di ricerca ordinate nelle foglie collegate da puntatori bidirezionali per accelerare le interrogazioni per intervallo.
+Le tabelle di accesso basate su funzione hash garantiscono invece tempi costanti per le ricerche puntuali di uguaglianza.

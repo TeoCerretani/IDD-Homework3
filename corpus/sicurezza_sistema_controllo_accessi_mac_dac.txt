@@ -1,0 +1,2 @@
+La matrice di protezione definisce i permessi di lettura, scrittura ed esecuzione concessi a ciascun soggetto sulle risorse del calcolatore.
+Le politiche obbligatorie vincolano il flusso informativo in base a etichette di riservatezza non modificabili dai proprietari dei file.

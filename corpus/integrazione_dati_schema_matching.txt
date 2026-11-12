@@ -1,0 +1,2 @@
+La riconciliazione di sorgenti informative autonome richiede l'allineamento semantico degli attributi e la risoluzione dei conflitti di rappresentazione.
+Le viste globali mediano tra lo schema unificato esposto alle applicazioni e le strutture locali dei singoli depositi.

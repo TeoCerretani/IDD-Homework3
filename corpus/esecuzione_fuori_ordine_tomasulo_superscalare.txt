@@ -1,0 +1,2 @@
+I processori superscalari prelevano e avviano simultaneamente molteplici istruzioni per ciclo distribuendole a unita funzionali ridondanti.
+La rinomina dinamica dei registri e le stazioni di prenotazione eliminano le false dipendenze sui nomi consentendo il completamento fuori ordine.

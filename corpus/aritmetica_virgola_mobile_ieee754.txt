@@ -1,0 +1,2 @@
+La rappresentazione normalizzata dei numeri reali suddivide la parola binaria nei campi di segno, esponente polarizzato e mantissa frazionaria.
+Le unita aritmetiche dedicate gestiscono gli arrotondamenti standardizzati, le forme denormalizzate e i codici speciali di infinito.

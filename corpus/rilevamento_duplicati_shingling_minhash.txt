@@ -1,0 +1,2 @@
+L'individuazione di pagine web quasi identiche rappresenta ciascun testo come l'insieme delle sotto-sequenze contigue di lunghezza prefissata.
+Le firme compatte ottenute mediante permutazioni casuali MinHash stimano rapidamente il coefficiente di sovrapposizione di Jaccard.

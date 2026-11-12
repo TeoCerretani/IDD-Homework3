@@ -1,0 +1,2 @@
+Quando la collezione supera la capienza della memoria centrale, l'algoritmo di inversione a singolo passaggio accumula dizionari parziali autonomi per ciascun blocco.
+Una fase finale di fusione a piu vie unifica i blocchi ordinati producendo il vocabolario globale e le liste definitive su disco.

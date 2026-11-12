@@ -1,0 +1,2 @@
+I dizionari distribuiti in memoria centrale associano a ciascun identificativo opaco una struttura elementare accessibile con latenze sub-millisecondo.
+La persistenza opzionale viene garantita tramite istantanee periodiche su disco o registri append-only delle mutazioni.

@@ -1,0 +1,2 @@
+Nei sistemi simmetrici a memoria condivisa ciascun nucleo di calcolo mantiene una copia locale delle linee recentemente accedute.
+I protocolli di invalidazione basati su snooping del bus assicurano che nessuna unita legga valori obsoleti dopo una scrittura concorrente.

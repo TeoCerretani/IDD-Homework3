@@ -1,0 +1,2 @@
+La registrazione degli scostamenti posizionali all'interno delle liste di inversione consente di verificare la distanza lineare tra le occorrenze di due vocaboli.
+Il parametro di tolleranza slop definisce il numero massimo di trasposizioni o parole intermedie ammesse in una ricerca frasale non contigua.

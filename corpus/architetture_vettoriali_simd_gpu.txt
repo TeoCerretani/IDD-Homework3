@@ -1,0 +1,2 @@
+Le istruzioni a singolo flusso di controllo e multiplo flusso di operandi applicano la medesima operazione aritmetica in parallelo su registri larghi.
+Gli acceleratori grafici estendono questo principio a migliaia di thread leggeri organizzati in blocchi cooperanti.

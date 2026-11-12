@@ -1,0 +1,2 @@
+L'isolamento hardware tra il livello privilegiato del supervisore e il livello non privilegiato delle applicazioni impedisce l'accesso diretto alle istruzioni critiche.
+Il passaggio controllato avviene attraverso un'istruzione di trappola software che commuta la pila e salta alla tabella dei vettori del nucleo.

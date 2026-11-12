@@ -1,0 +1,2 @@
+La formula probabilistica Okapi BM25 introduce una saturazione asintotica sul contributo della frequenza locale del termine governata dal parametro k1.
+La normalizzazione rispetto alla lunghezza media dei documenti nella collezione tramite il coefficiente b evita di penalizzare eccessivamente o favorire i testi lunghi.

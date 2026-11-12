@@ -1,0 +1,2 @@
+Il protocollo di negoziazione stabilisce un canale riservato e autenticato concordando la suite di cifratura e verificando la catena di fiducia dell'autorita di certificazione.
+Chiavi di sessione effimere garantiscono la segretezza in avanti anche in caso di compromissione futura della chiave privata del server.

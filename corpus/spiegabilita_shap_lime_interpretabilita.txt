@@ -1,0 +1,2 @@
+Nei settori critici quali la diagnostica clinica e il credito bancario le decisioni opache devono essere accompagnate da attribuzioni comprensibili dell'importanza delle variabili.
+Le approssimazioni locali lineari e i valori cooperativi di Shapley quantificano il contributo marginale di ciascun attributo.

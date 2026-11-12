@@ -1,0 +1,2 @@
+L'aggiunta di bit di ridondanza calcolati mediante divisione polinomiale consente al ricevitore di rilevare raffiche di errori introdotte dal rumore termico sul canale.
+I codici a correzione diretta ricostruiscono il simbolo originario evitando la ritrasmissione su collegamenti ad alto ritardo.

@@ -1,0 +1,2 @@
+La navigazione a faccette affianca all'elenco dei risultati il conteggio dinamico delle occorrenze suddivise per categorie ortogonali quali autore, anno o argomento.
+L'utente raffina progressivamente l'insieme estratto combinando filtri strutturati con la ricerca testuale libera.

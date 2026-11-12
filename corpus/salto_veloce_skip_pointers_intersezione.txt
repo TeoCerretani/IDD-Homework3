@@ -1,0 +1,2 @@
+L'intersezione simultanea di due liste di inversione ordinate viene accelerata inserendo puntatori di salto periodici che permettono di scavalcare porzioni prive di corrispondenze.
+Un passo di salto proporzionale alla radice quadrata della lunghezza della lista bilancia l'occupazione di spazio e il risparmio di confronti.

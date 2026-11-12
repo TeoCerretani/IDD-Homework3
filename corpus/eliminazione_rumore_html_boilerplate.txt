@@ -1,0 +1,2 @@
+Prima dell'analisi lessicale i documenti acquisiti dal web devono essere ripuliti dai marcatori di formattazione, dai menu di navigazione e dagli annunci pubblicitari.
+L'estrazione del corpo principale preserva la densita informativa ed evita false corrispondenze su testi ripetitivi di contorno.

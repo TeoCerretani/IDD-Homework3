@@ -1,0 +1,2 @@
+La suddivisione orizzontale delle collezioni distribuisce le righe tra nodi indipendenti utilizzando una chiave di partizione deterministica o basata su intervalli.
+L'impiego del consistent hashing minimizza il rimescolamento dei blocchi quando nuovi server entrano o escono dal cluster.

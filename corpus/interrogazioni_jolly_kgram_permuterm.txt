@@ -1,0 +1,2 @@
+La risoluzione di espressioni contenenti caratteri jolly agli estremi o all'interno della parola si avvale di indici ausiliari basati su rotazioni lessicali o frammenti di tre caratteri.
+I termini candidati estratti dall'indice secondario vengono poi filtrati e combinati in una query disgiuntiva.

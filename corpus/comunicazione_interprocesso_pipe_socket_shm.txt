@@ -1,0 +1,2 @@
+Flussi di esecuzione distinti scambiano informazioni mediante canali unidirezionali bufferizzati o segmenti mappati nello spazio di indirizzamento di entrambi.
+Il passaggio di messaggi strutturati disaccoppia i partecipanti facilitando l'estensione verso ambienti distribuiti.

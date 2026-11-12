@@ -1,0 +1,2 @@
+La regolazione dinamica della tensione e della frequenza di clock riduce quadraticamente la potenza dissipata dai circuiti CMOS durante i periodi di basso carico.
+La disattivazione selettiva delle unita inattive prolunga l'autonomia dei dispositivi alimentati a batteria.

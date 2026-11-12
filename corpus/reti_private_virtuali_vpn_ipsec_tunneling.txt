@@ -1,0 +1,2 @@
+L'incapsulamento cifrato dei datagrammi all'interno di un tunnel logico consente di interconnettere sedi remote attraverso l'infrastruttura pubblica mantenendo la riservatezza.
+L'associazione di sicurezza definisce gli algoritmi e le chiavi condivise tra i terminali del collegamento protetto.

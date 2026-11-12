@@ -1,0 +1,2 @@
+Gli insiemi sfumati estendono la logica booleana classica associando a ciascun elemento un grado continuo di appartenenza compreso tra zero e uno.
+Regole linguistiche del tipo se-allora traducono la conoscenza esperta in leggi di regolazione morbida per impianti industriali.

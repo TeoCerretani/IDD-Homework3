@@ -1,0 +1,2 @@
+Il pianificatore relazionale stima la selettivita dei predicati consultando istogrammi di frequenza aggiornati periodicamente sul catalogo di sistema.
+La scelta tra scansione sequenziale, accesso indicizzato e hash join dipende dal numero di pagine su disco e dalla disponibilita di buffer in memoria.

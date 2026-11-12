@@ -1,0 +1,2 @@
+La generazione e la manipolazione diretta del segnale acustico mediante oscillatori, filtri e campionatori digitali estendono il dominio timbrico oltre gli strumenti tradizionali.
+L'analisi spettrale del suono guida la costruzione dell'armonia a partire dalla struttura fisica degli armonici superiori.

@@ -1,0 +1,2 @@
+Lo strato indipendente dal dispositivo uniforma l'interfaccia verso i driver specifici mascherando le differenze di velocita e dimensione di blocco.
+Il doppio buffering sovrappone il trasferimento dalla periferica con l'elaborazione del blocco precedente da parte del programma.

@@ -1,0 +1,2 @@
+Il modello di interazione senza stato del web si fonda sullo scambio di richieste e risposte contenenti intestazioni descrittive e rappresentazioni delle risorse.
+I server intermediari e le reti di distribuzione dei contenuti replicano gli oggetti statici in prossimita degli utenti finali.

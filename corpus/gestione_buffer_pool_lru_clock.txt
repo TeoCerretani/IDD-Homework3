@@ -1,0 +1,2 @@
+Il gestore della memoria tampone trattiene in RAM le pagine del disco piu frequentemente richieste ricorrendo a politiche di rimpiazzamento approssimate.
+Il protocollo write-ahead logging impone che i record del giornale di ripristino vengano scaricati su memoria stabile prima delle pagine modificate.

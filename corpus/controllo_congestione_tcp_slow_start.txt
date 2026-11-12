@@ -1,0 +1,2 @@
+Il protocollo di trasporto affidabile regola la quantita di segmenti immessi nella rete mantenendo una finestra di congestione adattiva.
+L'incremento additivo e la riduzione moltiplicativa a fronte della perdita di riscontri assicurano una ripartizione equa della banda disponibile.

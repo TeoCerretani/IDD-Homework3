@@ -1,0 +1,2 @@
+La pianificazione automatica su grafi degli stati esplora prioritariamente i cammini che minimizzano la somma del costo trascorso e di una stima ammissibile del costo residuo.
+Nei giochi competitivi a somma zero la potatura alfa-beta scarta i rami dell'albero di decisione che non possono alterare la scelta ottima.

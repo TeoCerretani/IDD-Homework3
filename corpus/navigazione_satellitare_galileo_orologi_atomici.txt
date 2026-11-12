@@ -1,0 +1,2 @@
+La determinazione tridimensionale della posizione a terra si basa sulla misurazione dei tempi di propagazione dei segnali radio emessi da almeno quattro satelliti.
+Orologi atomici al maser a idrogeno e al rubidio garantiscono una sincronizzazione nanometrica tenendo conto delle correzioni relativistiche.

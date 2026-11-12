@@ -1,0 +1,2 @@
+Le celle dotate di porte di ingresso, oblio e uscita regolano il flusso delle informazioni lungo sequenze temporali estese contrastando la scomparsa del gradiente.
+Lo stato interno preserva le dipendenze a lungo raggio necessarie per l'analisi del parlato e la previsione di grandezze dinamiche.

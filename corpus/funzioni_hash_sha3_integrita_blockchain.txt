@@ -1,0 +1,2 @@
+Le funzioni di condensazione crittografica trasformano messaggi di lunghezza arbitraria in impronte di dimensione fissa resistenti alle collisioni e all'inversione.
+Il concatenamento di blocchi autenticati tramite alberi di Merkle garantisce l'immutabilita storica dei registri distribuiti.

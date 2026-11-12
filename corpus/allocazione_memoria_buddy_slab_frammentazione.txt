@@ -1,0 +1,2 @@
+L'allocatore a blocchi gemelli suddivide ricorsivamente porzioni contigue di potenze di due ricombinando rapidamente le regioni libere adiacenti.
+Gli allocatori a lastre pre-inizializzano contenitori di oggetti di dimensione fissa eliminando la frammentazione interna per le strutture frequenti.

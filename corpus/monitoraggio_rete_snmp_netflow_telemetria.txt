@@ -1,0 +1,2 @@
+La raccolta continua delle statistiche di traffico e dello stato delle interfacce permette agli amministratori di individuare colli di bottiglia e anomalie operative.
+La telemetria a flusso spinge gli indicatori prestazionali verso i collettori centrali in tempo reale.

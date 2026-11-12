@@ -1,0 +1,2 @@
+L'organizzazione ridondante di dischi indipendenti distribuisce i blocchi su piu unita parallele affiancando informazioni di parita calcolate mediante somma esclusiva.
+In caso di guasto di un supporto la ricostruzione avviene automaticamente a partire dalle unita superstiti senza interrompere il servizio.

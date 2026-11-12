@@ -1,0 +1,2 @@
+Il paradigma federato coordina l'aggiornamento di un classificatore condiviso mantenendo i campioni sensibili sui dispositivi periferici degli utenti.
+L'iniezione calibrata di rumore statistico sui gradienti trasmessi al coordinatore impedisce la ricostruzione dei singoli profili individuali.

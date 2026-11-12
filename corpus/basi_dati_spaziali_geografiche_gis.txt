@@ -1,0 +1,2 @@
+Le estensioni cartografiche rappresentano punti, spezzate e poligoni georeferenziati supportando interrogazioni topologiche di intersezione, inclusione e prossimita.
+Gli alberi R-tree racchiudono gli oggetti geometrici entro rettangoli minimi di contenimento organizzati gerarchicamente.

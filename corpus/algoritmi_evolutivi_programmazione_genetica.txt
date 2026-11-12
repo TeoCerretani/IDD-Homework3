@@ -1,0 +1,2 @@
+Le meta-euristiche ispirate alla selezione naturale fanno evolvere una popolazione di soluzioni candidate applicando operatori stocastici di incrocio e mutazione.
+La funzione di adattamento guida la sopravvivenza degli individui migliori su paesaggi multimodali non differenziabili.

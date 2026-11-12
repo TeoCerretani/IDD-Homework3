@@ -1,0 +1,2 @@
+Gli algoritmi di consenso distribuito eleggono un nodo coordinatore incaricato di propagare il registro delle operazioni a una maggioranza qualificata di repliche.
+La modalita sincrona previene la perdita di scritture confermate a fronte di una maggiore latenza di risposta.

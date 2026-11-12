@@ -1,0 +1,2 @@
+Il recupero translinguistico consente di formulare l'interrogazione in una lingua differente rispetto a quella in cui sono redatti gli articoli dell'archivio.
+La traduzione automatica della query o la proiezione in spazi semantici condivisi supera la barriera idiomatica.

@@ -1,0 +1,2 @@
+Nelle campagne internazionali di valutazione su milioni di articoli non e possibile ispezionare manualmente l'intera collezione per calcolare il richiamo assoluto.
+La tecnica del pooling raccoglie l'unione dei primi k documenti restituiti da molteplici motori indipendenti sottoponendo solo tale sottoinsieme al giudizio umano.

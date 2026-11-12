@@ -1,0 +1,2 @@
+L'ottimizzazione iterativa dei parametri aggiorna i pesi nella direzione opposta al gradiente stimato su piccoli sottoinsiemi casuali di esempi.
+I metodi adattivi modulano il passo di aggiornamento individuale per ciascuna coordinata sfruttando le medie mobili del primo e del secondo momento.

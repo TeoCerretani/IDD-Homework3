@@ -1,0 +1,2 @@
+L'addestramento competitivo contrappone una rete generatrice che sintetizza campioni artificiali a una rete discriminatrice che tenta di distinguerli dai campioni autentici.
+I processi di diffusione invertono invece una catena progressiva di corruzione gaussiana ricostruendo immagini ad alta fedelta.

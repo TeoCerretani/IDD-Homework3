@@ -1,0 +1,2 @@
+L'identificazione di transazioni fraudolente o guasti incipienti ricerca le osservazioni rare che si discostano significativamente dalla distribuzione normale.
+Il partizionamento casuale ricorsivo isola i punti anomali in un numero medio di suddivisioni sensibilmente inferiore rispetto ai punti densi.

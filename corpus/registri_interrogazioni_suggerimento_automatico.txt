@@ -1,0 +1,2 @@
+L'analisi delle sessioni storiche di ricerca alimenta i meccanismi di completamento automatico basati su alberi dei prefissi pesati per frequenza.
+La riformulazione assistita riduce gli errori di battitura e guida l'utente verso espressioni maggiormente selettive.

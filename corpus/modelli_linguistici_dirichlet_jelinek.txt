@@ -1,0 +1,2 @@
+Nell'approccio basato sui modelli di linguaggio un documento viene ordinato in base alla probabilita di generare la sequenza di vocaboli dell'interrogazione.
+Lo smoothing di Jelinek-Mercer e la regolarizzazione bayesiana di Dirichlet evitano probabilita nulle per i vocaboli assenti nel singolo documento.

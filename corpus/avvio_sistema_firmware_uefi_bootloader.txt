@@ -1,0 +1,2 @@
+Alla chiusura del circuito di alimentazione il firmware residente su memoria non volatile esegue l'autodiagnosi dell'hardware e inizializza i controllori principali.
+La catena di avvio verificata controlla la firma crittografica del caricatore prima di trasferire il controllo all'immagine del nucleo.

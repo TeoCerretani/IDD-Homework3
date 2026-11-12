@@ -1,0 +1,2 @@
+I modelli grafici diretti aciclici fattorizzano la distribuzione di probabilita congiunta sfruttando le relazioni di indipendenza condizionata tra le variabili aleatorie.
+La propagazione dei messaggi lungo l'albero delle cricche calcola le distribuzioni marginali a posteriori a fronte delle evidenze osservate.

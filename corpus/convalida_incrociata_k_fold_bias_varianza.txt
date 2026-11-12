@@ -1,0 +1,2 @@
+La decomposizione dell'errore quadratico atteso evidenzia la tensione tra la semplicita eccessiva dell'ipotesi e la sensibilita alle fluttuazioni del campione.
+La partizione ciclica in k sottoinsiemi fornisce una stima robusta della capacita di generalizzazione su osservazioni future.

@@ -1,0 +1,2 @@
+Nei contesti di controllo avionico e automobilistico la correttezza del calcolo dipende dal rispetto rigoroso delle scadenze temporali oltre che dal risultato logico.
+La pianificazione a priorita dinamica basata sulla scadenza piu ravvicinata garantisce l'utilizzo ottimale del processore.

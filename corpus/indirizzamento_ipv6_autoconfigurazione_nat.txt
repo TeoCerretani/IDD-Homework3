@@ -1,0 +1,2 @@
+L'estensione dello spazio di indirizzamento a centoventotto bit risolve l'esaurimento delle numerazioni classiche ed elimina la necessita di traduzione degli indirizzi al confine.
+La semplificazione dell'intestazione di lunghezza fissa accelera l'elaborazione dei pacchetti nei nodi di transito.

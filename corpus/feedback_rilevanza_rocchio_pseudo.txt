@@ -1,0 +1,2 @@
+L'algoritmo di Rocchio aggiorna il vettore dell'interrogazione spostandolo verso il baricentro dei documenti giudicati pertinenti e allontanandolo da quelli non pertinenti.
+Nel feedback cieco o pseudo-rilevante i primi risultati restituiti dalla ricerca iniziale vengono assunti automaticamente come positivi.

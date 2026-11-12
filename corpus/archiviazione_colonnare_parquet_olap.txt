@@ -1,0 +1,2 @@
+Il formato di memorizzazione orientato alle colonne raggruppa valori omogenei contigui su disco favorendo la compressione run-length e a dizionario.
+I carichi di lavoro analitici leggono esclusivamente gli attributi coinvolti nelle proiezioni e nelle aggregazioni riducendo il traffico di ingresso e uscita.
