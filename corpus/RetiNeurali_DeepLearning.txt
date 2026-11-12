@@ -1,0 +1,4 @@
+Le reti neurali artificiali e il deep learning costituiscono il nucleo delle moderne applicazioni di visione artificiale ed elaborazione del linguaggio naturale.
+Una rete neurale profonda è formata da molteplici strati di nodi interconnessi (neuroni artificiali) che trasformano progressivamente le rappresentazioni dei dati in ingresso mediante combinazioni lineari e funzioni di attivazione non lineari.
+L'addestramento del modello avviene minimizzando una funzione di costo tramite l'algoritmo di retropropagazione dell'errore (backpropagation) e la discesa stocastica del gradiente.
+

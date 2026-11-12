@@ -1,0 +1,4 @@
+L'architettura dei calcolatori studia l'organizzazione interna e il funzionamento logico dei sistemi di elaborazione digitale.
+Il modello di riferimento classico è l'architettura di Von Neumann, basata sulla presenza di un'unità di elaborazione centrale (CPU), una memoria principale condivisa per dati e istruzioni, e un sistema di bus per il trasferimento delle informazioni verso le periferiche di ingresso e uscita.
+Per ridurre il collo di bottiglia nell'accesso alla memoria centrale, i processori moderni integrano una gerarchia di memorie cache (livelli L1, L2 e L3) ad altissima velocità e utilizzano tecniche di pipelining, esecuzione superscalare e predizione delle diramazioni.
+

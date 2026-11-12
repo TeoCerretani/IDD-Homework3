@@ -1,0 +1,4 @@
+Il sistema operativo è il software di base che gestisce le risorse hardware di un elaboratore e fornisce un'astrazione uniforme ai programmi applicativi.
+Il componente centrale del sistema operativo è il kernel, che opera in modalità privilegiata occupandosi della pianificazione dei processi sulla CPU (scheduling), della gestione della memoria virtuale tramite paginazione e del controllo dei dispositivi di input/output.
+Attraverso l'interfaccia delle chiamate di sistema (system call), i processi utente possono richiedere in modo sicuro ed efficiente i servizi offerti dal kernel, come l'accesso ai file sul disco.
+

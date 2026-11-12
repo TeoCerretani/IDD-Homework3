@@ -1,0 +1,4 @@
+Nell'apprendimento automatico supervisionato (supervised machine learning), un algoritmo apprende una funzione predittiva a partire da un insieme di addestramento composto da esempi etichettati.
+I problemi principali si dividono in classificazione, quando l'etichetta di output appartiene a un insieme discreto di categorie, e regressione, quando il valore da stimare è continuo.
+Per valutare la capacità di generalizzazione del modello sui dati non osservati ed evitare il fenomeno dell'overfitting, si ricorre a tecniche di validazione incrociata e regolarizzazione.
+

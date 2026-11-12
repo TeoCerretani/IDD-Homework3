@@ -1,0 +1,4 @@
+Un motore di ricerca testuale come Apache Lucene si fonda sulla struttura dati nota come indice invertito (inverted index).
+Durante il processo di indicizzazione, ciascun documento viene analizzato e suddiviso in una sequenza di token normalizzati; per ogni termine del vocabolario viene mantenuta una posting list contenente gli identificativi dei documenti in cui il termine compare, insieme alle frequenze e alle posizioni.
+In fase di interrogazione, l'indice invertito consente di recuperare rapidamente i documenti pertinenti e di ordinarli secondo funzioni di rilevanza statistica come BM25.
+

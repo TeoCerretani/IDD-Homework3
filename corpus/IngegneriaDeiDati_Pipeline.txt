@@ -1,0 +1,4 @@
+L'ingegneria dei dati si occupa della progettazione, costruzione e manutenzione delle architetture software necessarie per raccogliere, trasformare e rendere disponibili grandi volumi di informazioni.
+Le moderne pipeline di dati integrano processi di estrazione, pulizia e caricamento (ETL o ELT) a partire da sorgenti eterogenee verso data warehouse o data lake distribuiti.
+Garantire la qualità del dato, la scalabilità orizzontale e la tolleranza ai guasti è essenziale per supportare l'analisi statistica e i sistemi di supporto alle decisioni aziendali.
+

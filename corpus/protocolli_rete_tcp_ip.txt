@@ -1,0 +1,4 @@
+L'architettura delle reti di calcolatori moderne e di Internet si basa sulla suite di protocolli TCP/IP, organizzata in livelli funzionali distinti.
+Il protocollo IP (Internet Protocol) opera a livello di rete occupandosi dell'indirizzamento logico dei nodi e dell'instradamento dei pacchetti attraverso router interconnessi, senza tuttavia garantire la consegna o l'ordine di arrivo.
+A livello di trasporto, il protocollo TCP (Transmission Control Protocol) fornisce un canale di comunicazione affidabile e orientato alla connessione, gestendo il controllo di flusso, il controllo della congestione e la ritrasmissione dei segmenti perduti.
+

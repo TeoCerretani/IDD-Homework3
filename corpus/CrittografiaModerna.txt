@@ -1,0 +1,4 @@
+La crittografia moderna protegge la riservatezza, l'integrità e l'autenticità delle comunicazioni digitali attraverso algoritmi matematici basati su chiavi segrete o coppie di chiavi asimmetriche.
+Nella crittografia simmetrica, come lo standard AES, mittente e destinatario condividono la medesima chiave per cifrare e decifrare il messaggio.
+Al contrario, i sistemi a chiave pubblica come RSA o la crittografia su curve ellittiche impiegano una chiave pubblica per la cifratura e una chiave privata per la decifratura, permettendo anche l'apposizione di firme digitali verificabili.
+
