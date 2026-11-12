@@ -1,0 +1,2 @@
+La catena di analisi lessicale suddivide il flusso di caratteri in unita elementari, rimuove la punteggiatura e converte le lettere maiuscole in minuscole.
+Gli algoritmi di riduzione morfologica eliminano le desinenze flessionali riconducendo le forme coniugate o plurali alla medesima radice lessicale.

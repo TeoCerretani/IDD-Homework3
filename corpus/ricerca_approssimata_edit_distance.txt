@@ -1,0 +1,2 @@
+Le interrogazioni tolleranti agli errori ortografici individuano le voci del vocabolario che presentano una distanza di Levenshtein inferiore a una soglia prefissata.
+Gli automi di Levenshtein permettono di verificare rapidamente quali termini distano al piu una o due operazioni di inserimento, cancellazione o sostituzione.

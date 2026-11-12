@@ -1,0 +1,2 @@
+Il meccanismo della memoria virtuale gestito dal sistema operativo disaccoppia lo spazio di indirizzamento logico dei programmi dalla quantita fisica di circuiti integrati installati.
+La tabella delle pagine e il buffer associativo TLB traducono gli indirizzi virtuali in cornici fisiche generando un'eccezione di page fault quando il blocco risiede su disco.

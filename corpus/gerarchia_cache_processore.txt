@@ -1,0 +1,2 @@
+L'architettura dei moderni microprocessori adotta una gerarchia di memoria cache su piu livelli per colmare il divario di velocita rispetto alla RAM dinamica.
+I principi di localita temporale e spaziale garantiscono che la maggior parte degli accessi trovi le istruzioni e gli operandi gia presenti nelle linee ad accesso rapido.

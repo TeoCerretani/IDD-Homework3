@@ -1,0 +1,2 @@
+Le rappresentazioni distribuite associano a ciascun vocabolo un vettore denso in uno spazio continuo in cui parole semanticamente affini occupano posizioni ravvicinate.
+L'analisi morfosintattica individua i ruoli grammaticali e le dipendenze strutturali all'interno dei periodi complessi.

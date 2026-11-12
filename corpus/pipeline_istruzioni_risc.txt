@@ -1,0 +1,2 @@
+La sovrapposizione temporale delle fasi di prelievo, decodifica ed esecuzione consente di completare un'istruzione per ciclo di clock in condizioni ideali.
+I predittori dinamici dei salti condizionati riducono le penalita dovute allo svuotamento della catena di montaggio interna all'unita di elaborazione.

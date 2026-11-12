@@ -1,0 +1,2 @@
+Il monitor delle macchine virtuali astrae le risorse fisiche dell'elaboratore consentendo l'esecuzione isolata di molteplici ambienti ospiti sul medesimo server.
+La containerizzazione leggera condivide invece il nucleo dell'ambiente ospite isolando i processi tramite spazi dei nomi e gruppi di controllo.

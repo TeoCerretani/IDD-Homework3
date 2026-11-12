@@ -1,0 +1,2 @@
+Il divario lessicale tra il vocabolario dell'utente e quello degli autori penalizza il richiamo quando lo stesso concetto viene espresso mediante sinonimi differenti.
+L'arricchimento automatico dell'interrogazione tramite dizionari dei sinonimi o feedback di rilevanza consente di recuperare anche i testi privi dei termini esatti digitati.

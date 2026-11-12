@@ -1,0 +1,2 @@
+La teoria della progettazione logica elimina le ridondanze informative e le anomalie di aggiornamento scomponendo gli schemi in base alle dipendenze funzionali.
+Il raggiungimento della forma normale di Boyce-Codd assicura la conservazione senza perdita delle tuple originarie.

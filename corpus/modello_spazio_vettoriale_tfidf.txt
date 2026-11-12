@@ -1,0 +1,2 @@
+Nel modello dello spazio vettoriale ogni documento e ogni interrogazione sono rappresentati come vettori di pesi nello spazio generato dai termini del vocabolario.
+La similarita del coseno misura l'angolo compreso tra i vettori premiando le parole rare nella collezione ma frequenti nel singolo testo.

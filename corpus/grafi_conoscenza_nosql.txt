@@ -1,0 +1,2 @@
+I motori orientati ai grafi rappresentano entita e relazioni come vertici e archi etichettati, risultando ottimali per l'attraversamento di reti sociali e raccomandazioni.
+A differenza delle tabelle rigide, l'assenza di uno schema fisso agevola l'evoluzione continua delle proprieta associate ai nodi.

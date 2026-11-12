@@ -1,0 +1,2 @@
+Poiche le strutture su disco sono immutabili, i nuovi documenti vengono accumulati in un buffer in memoria prima di essere scaricati in un nuovo segmento autonomo.
+Un processo periodico di fusione compatta i segmenti minori rimuovendo definitivamente i record contrassegnati come cancellati.

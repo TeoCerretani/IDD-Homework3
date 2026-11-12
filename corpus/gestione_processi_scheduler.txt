@@ -1,0 +1,2 @@
+In un moderno sistema operativo multiprogrammato il pianificatore a breve termine assegna i quanti di tempo dell'unita centrale ai processi pronti in coda.
+Il cambio di contesto salva il contenuto dei registri hardware nel blocco di controllo del task sospeso prima di ripristinare lo stato del nuovo flusso selezionato.

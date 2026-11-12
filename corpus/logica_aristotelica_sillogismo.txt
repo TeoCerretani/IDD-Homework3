@@ -1,0 +1,2 @@
+Nell'Organon la deduzione razionale viene formalizzata attraverso la dottrina del sillogismo categorico composto da premessa maggiore, premessa minore e conclusione.
+I principi di identita, non contraddizione e terzo escluso costituiscono le fondamenta dell'argomentazione dimostrativa classica.

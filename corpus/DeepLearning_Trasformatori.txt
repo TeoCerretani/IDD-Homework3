@@ -1,0 +1,2 @@
+Il meccanismo di auto-attenzione consente di pesare dinamicamente l'importanza reciproca di tutte le parole che compongono una sequenza testuale.
+L'addestramento parallelo su vasti corpora linguistici ha rivoluzionato la traduzione automatica e la generazione del linguaggio naturale.

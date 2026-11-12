@@ -1,0 +1,2 @@
+I raccoglitori automatici esplorano il grafo ipertestuale del web seguendo i collegamenti uscenti dalle pagine gia visitate e rispettando le politiche di cortesia.
+L'algoritmo PageRank stima l'autorevolezza di ciascun nodo modellando il comportamento stocastico di un navigatore casuale.

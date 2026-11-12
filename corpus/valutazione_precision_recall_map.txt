@@ -1,0 +1,2 @@
+La qualita di un sistema di recupero dell'informazione si misura confrontando l'insieme dei documenti restituiti con i giudizi di rilevanza stabiliti dagli esperti.
+La precisione quantifica la frazione di risultati pertinenti tra quelli estratti, mentre il richiamo misura la copertura rispetto al totale dei documenti rilevanti presenti nella collezione.

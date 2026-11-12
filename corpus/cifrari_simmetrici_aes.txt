@@ -1,0 +1,2 @@
+Nella crittografia a chiave segreta il mittente e il destinatario condividono la medesima sequenza binaria per cifrare e decifrare i blocchi del messaggio.
+Lo standard AES applica trasformazioni iterative di sostituzione non lineare, permutazione delle righe e rimescolamento algebrico sulle colonne della matrice di stato.

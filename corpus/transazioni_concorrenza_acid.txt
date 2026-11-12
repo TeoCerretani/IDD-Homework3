@@ -1,0 +1,2 @@
+Il gestore della concorrenza preserva la serializzabilita delle esecuzioni simultanee mediante blocchi condivisi ed esclusivi secondo il protocollo two-phase locking.
+Il controllo multiversione MVCC evita che le operazioni di sola lettura blocchino gli aggiornamenti concorrenti sulle righe delle tabelle.

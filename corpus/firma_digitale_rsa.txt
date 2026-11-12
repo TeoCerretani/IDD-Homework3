@@ -1,0 +1,2 @@
+Gli algoritmi crittografici asimmetrici impiegano una coppia di chiavi matematicamente correlate per garantire autenticazione, integrita e non ripudio dei documenti elettronici.
+L'autore calcola l'impronta compatta del testo tramite una funzione hash unidirezionale e la sottopone a trasformazione mediante la propria chiave privata.

@@ -1,0 +1,2 @@
+I classificatori a massimo margine ricercano l'iperpiano separatore che massimizza la distanza geometrica dagli esempi piu prossimi appartenenti alle due classi.
+L'impiego di funzioni kernel proietta implicitamente i campioni in spazi a dimensione superiore rendendo linearmente separabili configurazioni complesse.

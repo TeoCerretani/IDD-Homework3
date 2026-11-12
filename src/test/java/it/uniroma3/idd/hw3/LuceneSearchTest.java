@@ -39,7 +39,7 @@ class LuceneSearchTest {
     @BeforeAll
     static void setUp() throws Exception {
         int count = FileIndexer.indexDocs("corpus", tempIndexDir.toString());
-        assertEquals(15, count);
+        assertEquals(80, count);
 
         directory = FSDirectory.open(tempIndexDir);
         reader = DirectoryReader.open(directory);
@@ -71,60 +71,110 @@ class LuceneSearchTest {
 
     @Test
     void testQuery01_NomeTermineSingolo() throws Exception {
-        assertEquals(List.of("esplorazione-spaziale-marte"), executeAndGetNames("nome marte"));
+        List<String> results = executeAndGetNames("nome marte");
+        assertEquals(3, results.size());
+        assertTrue(results.containsAll(List.of(
+                "esplorazione-spaziale-marte",
+                "missione_rover_marte",
+                "atmosfera-marziana-marte")));
     }
 
     @Test
     void testQuery02_NomePhraseQuerySpazi() throws Exception {
-        assertEquals(List.of("letteratura italiana novecento"), executeAndGetNames("nome \"letteratura italiana\""));
+        List<String> results = executeAndGetNames("nome \"letteratura italiana\"");
+        assertEquals(2, results.size());
+        assertTrue(results.containsAll(List.of(
+                "letteratura italiana novecento",
+                "letteratura-italiana-ottocento")));
     }
 
     @Test
     void testQuery03_NomePhraseQueryTrattini() throws Exception {
-        assertEquals(List.of("basi-di-dati-relazionali"), executeAndGetNames("nome \"basi di dati\""));
+        List<String> results = executeAndGetNames("nome \"basi di dati\"");
+        assertEquals(2, results.size());
+        assertTrue(results.containsAll(List.of(
+                "basi-di-dati-relazionali",
+                "basi_di_dati_distribuite")));
     }
 
     @Test
     void testQuery04_NomeCamelCaseEUnderscore() throws Exception {
-        assertEquals(List.of("RetiNeurali_DeepLearning"), executeAndGetNames("nome neurali deep"));
+        List<String> results = executeAndGetNames("nome neurali deep");
+        assertEquals(3, results.size());
+        assertEquals("RetiNeurali_DeepLearning", results.get(0));
+        assertTrue(results.containsAll(List.of(
+                "RetiNeurali_DeepLearning",
+                "ModelliNeurali_VisioneArtificiale",
+                "DeepLearning_Trasformatori")));
     }
 
     @Test
     void testQuery05_ContenutoPhraseQuery() throws Exception {
-        assertEquals(List.of("indice_invertito_lucene"), executeAndGetNames("contenuto \"indice invertito\""));
+        List<String> results = executeAndGetNames("contenuto \"indice invertito\"");
+        assertEquals(2, results.size());
+        assertEquals("indice_invertito_lucene", results.get(0));
+        assertTrue(results.contains("compressione_liste_invertite"));
     }
 
     @Test
     void testQuery06_ContenutoPhraseQueryStemming() throws Exception {
-        assertEquals(List.of("sistemi_operativi_kernel"), executeAndGetNames("contenuto \"sistema operativo\""));
+        List<String> results = executeAndGetNames("contenuto \"sistema operativo\"");
+        assertEquals(3, results.size());
+        assertTrue(results.containsAll(List.of(
+                "sistemi_operativi_kernel",
+                "gestione_processi_scheduler",
+                "memoria_virtuale_paginazione")));
     }
 
     @Test
     void testQuery07_ContenutoSingoloTermine() throws Exception {
-        assertEquals(List.of("CrittografiaModerna"), executeAndGetNames("contenuto crittografia"));
+        List<String> results = executeAndGetNames("contenuto crittografia");
+        assertEquals(2, results.size());
+        assertEquals("CrittografiaModerna", results.get(0));
+        assertTrue(results.containsAll(List.of(
+                "CrittografiaModerna",
+                "cifrari_simmetrici_aes")));
     }
 
     @Test
     void testQuery08_ContenutoStemmingPluraleSingolare() throws Exception {
-        assertEquals(List.of("energia_rinnovabile_italia"), executeAndGetNames("contenuto energie rinnovabili"));
+        List<String> results = executeAndGetNames("contenuto energie rinnovabili");
+        assertEquals(4, results.size());
+        assertEquals("energia_rinnovabile_italia", results.get(0));
+        assertTrue(results.containsAll(List.of(
+                "energia_rinnovabile_italia",
+                "impianti_fotovoltaici_solari",
+                "parchi_eolici_offshore",
+                "propulsione_ionica_sonde")));
     }
 
     @Test
     void testQuery09_ContenutoTerminiObbligatori() throws Exception {
-        assertEquals(List.of("machine-learning-supervisionato"), executeAndGetNames("contenuto +apprendimento +modello"));
+        List<String> results = executeAndGetNames("contenuto +apprendimento +modello");
+        assertEquals(2, results.size());
+        assertTrue(results.containsAll(List.of(
+                "machine-learning-supervisionato",
+                "regressione_lineare_logistica")));
     }
 
     @Test
     void testQuery10_ContenutoTerminiObbligatoriArchitettura() throws Exception {
-        assertEquals(List.of("architettura_calcolatori"), executeAndGetNames("contenuto +architettura +memoria"));
+        List<String> results = executeAndGetNames("contenuto +architettura +memoria");
+        assertEquals(2, results.size());
+        assertTrue(results.containsAll(List.of(
+                "architettura_calcolatori",
+                "gerarchia_cache_processore")));
     }
 
     @Test
     void testQuery11_ContenutoRankingMultiDocumento() throws Exception {
         List<String> results = executeAndGetNames("contenuto architettura dati");
-        assertTrue(results.size() >= 2);
-        assertTrue(results.subList(0, 2).contains("IngegneriaDeiDati_Pipeline"));
-        assertTrue(results.subList(0, 2).contains("architettura_calcolatori"));
+        assertEquals(10, results.size());
+        assertTrue(results.subList(0, 4).containsAll(List.of(
+                "IngegneriaDeiDati_Pipeline",
+                "data_warehouse_olap",
+                "data_lake_cloud_storage",
+                "architettura_calcolatori")));
     }
 
     @Test

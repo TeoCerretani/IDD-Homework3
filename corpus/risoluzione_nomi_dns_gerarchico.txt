@@ -1,0 +1,2 @@
+Il servizio distribuito dei nomi di dominio traduce gli identificativi simbolici degli host negli indirizzi numerici richiesti per l'instradamento.
+La memorizzazione temporanea delle risposte presso i risolutori locali abbatte la latenza di navigazione e riduce il carico sui server radice.

@@ -1,0 +1,2 @@
+I moderni schemi di controllo degli accessi combinano fattori basati sulla conoscenza di una parola segreta, sul possesso di un dispositivo fisico e su tratti biometrici.
+I gettoni firmati digitalmente consentono di delegare l'autorizzazione tra servizi web senza esporre le credenziali primarie dell'utente.

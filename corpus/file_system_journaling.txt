@@ -1,0 +1,2 @@
+Il sottosistema di archiviazione organizza i blocchi logici delle unita a stato solido mantenendo gli attributi dei file all'interno di strutture indicizzate chiamate inode.
+La registrazione preventiva delle modifiche su un giornale circolare consente un ripristino immediato della coerenza strutturale dopo un'interruzione improvvisa dell'alimentazione.

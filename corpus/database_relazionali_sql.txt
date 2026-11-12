@@ -1,0 +1,2 @@
+Il linguaggio strutturato SQL rappresenta lo standard universale per interrogare e manipolare schemi relazionali mediante proiezioni, selezioni e congiunzioni.
+L'ottimizzatore delle interrogazioni valuta piani di esecuzione alternativi stimando la cardinalita delle relazioni e sfruttando gli alberi B-tree definiti sulle chiavi primarie.

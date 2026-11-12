@@ -1,0 +1,3 @@
+Le basi di dati distribuite ripartiscono la memorizzazione delle tabelle su molteplici nodi interconnessi attraverso una rete locale o geografica.
+La replicazione dei frammenti garantisce tolleranza ai guasti e alta disponibilita, mentre il protocollo di commit a due fasi coordina l'atomicita delle transazioni distribuite.
+Nelle moderne organizzazioni i sistemi distribuiti gestiscono grandi volumi di dati garantendo scalabilita orizzontale.

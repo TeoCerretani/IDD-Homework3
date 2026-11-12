@@ -1,0 +1,2 @@
+L'accesso concorrente a variabili condivise tra thread cooperanti richiede sezioni critiche protette mediante semafori contatori, mutex o variabili di condizione.
+La prevenzione dello stallo circolare impone un ordinamento totale nell'acquisizione delle risorse contese.

@@ -1,0 +1,2 @@
+I router della dorsale Internet inoltrano i datagrammi consultando tabelle di instradamento aggiornate dinamicamente mediante algoritmi a stato del collegamento o a vettore distanza.
+Tra sistemi autonomi indipendenti lo scambio delle politiche di transito avviene attraverso sessioni interdominio affidabili.

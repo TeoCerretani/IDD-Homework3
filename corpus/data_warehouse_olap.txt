@@ -1,0 +1,2 @@
+Un data warehouse aziendale consolida informazioni storiche provenienti da sorgenti eterogenee all'interno di un'architettura orientata ai soggetti e non volatile.
+L'elaborazione analitica multidimensionale OLAP organizza i dati secondo schemi a stella e a fiocco di neve, facilitando aggregazioni rapide lungo le dimensioni temporali e geografiche.

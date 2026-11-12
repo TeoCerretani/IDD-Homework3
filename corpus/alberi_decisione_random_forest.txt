@@ -1,0 +1,2 @@
+Gli alberi decisionali ripartiscono ricorsivamente lo spazio degli attributi selezionando ad ogni nodo il test che massimizza il guadagno informativo o riduce l'impurita di Gini.
+I comitati di foreste casuali combinano le previsioni di centinaia di alberi decorrelati ottenuti mediante campionamento bootstrap.

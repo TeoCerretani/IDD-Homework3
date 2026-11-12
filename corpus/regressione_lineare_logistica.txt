@@ -1,0 +1,2 @@
+Nel paradigma supervisionato l'apprendimento statistico stima i coefficienti ottimali di un modello parametrico minimizzando una funzione di costo convessa.
+La regolarizzazione penalizza i pesi di ampiezza eccessiva prevenendo il sovradattamento sulle osservazioni rumorose del campione di partenza.

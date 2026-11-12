@@ -1,0 +1,2 @@
+L'architettura di un moderno data lake consente di acquisire dati grezzi strutturati, semistrutturati e non strutturati mantenendo il formato nativo fino al momento dell'analisi.
+Questo approccio schema-on-read affianca i depositi analitici tradizionali offrendo flessibilita agli scienziati del dato.

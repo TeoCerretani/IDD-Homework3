@@ -1,0 +1,2 @@
+Il protocollo di accordo sulle chiavi su canale insicuro permette a due interlocutori di stabilire un segreto condiviso sfruttando la difficolta del logaritmo discreto.
+Le varianti basate sulle curve ellittiche offrono il medesimo livello di robustezza riducendo sensibilmente la lunghezza degli operandi aritmetici.

@@ -1,0 +1,2 @@
+Nei processi decisionali di Markov un agente autonomo interagisce con l'ambiente circostante selezionando azioni che massimizzano la ricompensa cumulativa scontata.
+Il bilanciamento tra esplorazione di nuove strategie e sfruttamento della politica corrente determina la velocita di convergenza verso il comportamento ottimo.

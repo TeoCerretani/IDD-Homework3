@@ -1,0 +1,2 @@
+Gli algoritmi di partizionamento raggruppano automaticamente le osservazioni prive di etichetta massimizzando la coesione interna ai gruppi e la separazione esterna.
+Il metodo delle k-medie aggiorna iterativamente la posizione dei centroidi assegnando ciascun punto al prototipo geometricamente piu vicino.

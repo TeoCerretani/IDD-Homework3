@@ -1,0 +1,2 @@
+Nelle comunicazioni radio su mezzo condiviso le stazioni adottano l'ascolto preventivo della portante con elisione delle collisioni e conferme esplicite di ricezione.
+La modulazione ortogonale a divisione di frequenza suddivide il canale spettrale in numerose sottoportanti parallele resistenti ai cammini multipli.

@@ -1,0 +1,2 @@
+Il dizionario lessicale mantiene l'elenco ordinato del vocabolario estratto dalla collezione e associa a ciascuna voce il puntatore alla rispettiva posting list.
+L'impiego di automi a stati finiti minimali consente di compattare i prefissi e i suffissi condivisi tra le stringhe del vocabolario.

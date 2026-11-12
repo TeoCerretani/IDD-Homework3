@@ -1,0 +1,2 @@
+Le architetture convoluzionali estraggono gerarchie di caratteristiche spaziali dalle immagini digitali applicando filtri bidimensionali condivisi.
+I livelli di pooling riducono progressivamente la risoluzione delle mappe di attivazione conferendo invarianza rispetto a piccole traslazioni del soggetto.

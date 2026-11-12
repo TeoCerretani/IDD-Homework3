@@ -1,0 +1,2 @@
+Le piattaforme di elaborazione a flusso continuo analizzano sequenze illimitate di eventi in tempo reale applicando finestre temporali scorrevoli.
+La gestione dello stato distribuito mediante checkpoint periodici assicura una semantica di elaborazione esatta anche in presenza di malfunzionamenti dei nodi.

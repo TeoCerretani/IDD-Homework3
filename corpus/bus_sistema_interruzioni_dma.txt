@@ -1,0 +1,2 @@
+Il controllore di accesso diretto permette alle periferiche veloci di trasferire blocchi di byte senza impegnare il microprocessore in cicli di attesa attiva.
+Al termine del trasferimento il dispositivo solleva una richiesta di interruzione asincrona che invoca la corrispondente routine di servizio.

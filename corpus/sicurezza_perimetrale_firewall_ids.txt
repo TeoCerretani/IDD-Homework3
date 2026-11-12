@@ -1,0 +1,2 @@
+I filtri di pacchetto ispezionano le intestazioni dei flussi in transito applicando regole di controllo basate sugli indirizzi sorgente, destinazione e sulle porte di servizio.
+I sensori di rilevamento delle intrusioni analizzano il traffico alla ricerca di firme di attacco note o deviazioni statistiche rispetto al profilo nominale.

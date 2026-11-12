@@ -1,0 +1,2 @@
+Nei motori di ricerca su larga scala gli indici invertiti vengono compressi memorizzando gli incrementi differenziali tra gli identificativi ordinati dei documenti.
+La codifica a lunghezza variabile riduce drasticamente l'occupazione su disco e accelera il trasferimento delle liste in memoria centrale durante la risoluzione delle interrogazioni.
