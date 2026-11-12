@@ -1,0 +1,1 @@
+Nelle collezioni testuali in linguaggio naturale la frequenza di un vocabolo risulta inversamente proporzionale al suo rango nella graduatoria ordinata per occorrenze. Di conseguenza pochissime parole funzionali coprono la maggior parte del testo mentre una lunga coda di termini rari possiede alto valore discriminante.

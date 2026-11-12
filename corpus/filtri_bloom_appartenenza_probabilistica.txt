@@ -1,0 +1,1 @@
+Un vettore di bit associato a molteplici funzioni di dispersione indipendenti consente di verificare rapidamente se una chiave sia certamente assente da un segmento su disco. Tale struttura evita costosi accessi inutili al sottosistema di memorizzazione a fronte di una probabilita controllabile di falsi positivi.

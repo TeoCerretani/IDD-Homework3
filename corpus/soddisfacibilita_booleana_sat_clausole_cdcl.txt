@@ -1,0 +1,1 @@
+I risolutori moderni di formule proposizionali in forma normale congiuntiva applicano la propagazione unitaria e l'apprendimento di nuove clausole dai conflitti. Questa organizzazione risolve istanze industriali con milioni di variabili nella verifica formale dei circuiti.

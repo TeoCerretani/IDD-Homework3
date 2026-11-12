@@ -1,0 +1,1 @@
+Per accelerare la risposta sulle interrogazioni piu comuni si precalcolano per ogni termine sottoliste contenenti esclusivamente i testi con frequenza piu elevata. In alternativa le liste vengono ordinate per contributo decrescente di punteggio anziche per identificativo crescente.

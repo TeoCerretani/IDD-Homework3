@@ -1,0 +1,1 @@
+Quando entrambe le relazioni in ingresso sono gia ordinate rispetto agli attributi di giunzione, la scansione sincronizzata delle due sequenze produce il risultato con costo lineare. In assenza di ordinamento preesistente si applica preliminarmente l'algoritmo di fusione esterna a piu vie.

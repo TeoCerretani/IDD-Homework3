@@ -1,0 +1,1 @@
+La traduzione dei nomi simbolici di dominio in indirizzi numerici si appoggia a una gerarchia distribuita mondiale di servitori radice, servitori di primo livello e servitori autoritativi. La memorizzazione temporanea delle risposte presso i risolutori locali abbatte la latenza di navigazione.

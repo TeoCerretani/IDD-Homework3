@@ -1,0 +1,1 @@
+La raccolta centralizzata dei registri prodotti da apparati di rete, servitori e postazioni di lavoro consente di individuare campagne di intrusione articolate su piu fasi. Le regole di correlazione incrociano indicatori di compromissione eterogenei riducendo i falsi allarmi.

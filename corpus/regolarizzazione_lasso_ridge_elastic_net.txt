@@ -1,0 +1,1 @@
+L'aggiunta di una penalita sulla norma assoluta dei coefficienti induce sparsita azzerando esattamente le variabili irrilevanti e operando una selezione automatica delle caratteristiche. La combinazione con la penalita quadratica stabilizza la stima in presenza di predittori fortemente correlati.

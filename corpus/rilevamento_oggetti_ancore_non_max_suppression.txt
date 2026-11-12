@@ -1,0 +1,1 @@
+I localizzatori visivi a singolo stadio predicono simultaneamente le coordinate dei riquadri di delimitazione e le probabilita di categoria su una griglia densa. La soppressione dei non massimi elimina le predizioni ridondanti sovrapposte mantenendo il riquadro a confidenza maggiore.

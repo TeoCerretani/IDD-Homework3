@@ -1,0 +1,1 @@
+La pianificazione nei giochi a informazione perfetta bilancia l'esplorazione di mosse poco visitate con lo sfruttamento delle varianti a piu alta percentuale di vittoria. Simulazioni rapide aggiornano ricorsivamente le statistiche dei nodi lungo il cammino percorso.

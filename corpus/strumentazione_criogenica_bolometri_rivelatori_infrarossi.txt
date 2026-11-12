@@ -1,0 +1,1 @@
+L'osservazione astronomica nelle bande del lontano infrarosso e del submillimetrico richiede il raffreddamento dei sensori a frazioni di grado sopra lo zero assoluto mediante elio liquido per abbattere il rumore termico proprio dello strumento.

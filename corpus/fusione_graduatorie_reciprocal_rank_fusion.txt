@@ -1,0 +1,1 @@
+I metamotori di ricerca combinano le graduatorie restituite da sistemi eterogenei sommando gli inversi delle posizioni occupate da ciascun candidato. Questa tecnica non richiede la calibrazione preventiva di punteggi espressi su scale numeriche incompatibili.

@@ -1,0 +1,1 @@
+La difesa contro le inondazioni distribuite di traffico volumetrico devia i flussi destinati alla vittima verso centri di lavaggio ad alta capacita. L'filtraggio selettivo scarta i pacchetti malformati o amplificati inoltrando al destinatario le sole richieste legittime.

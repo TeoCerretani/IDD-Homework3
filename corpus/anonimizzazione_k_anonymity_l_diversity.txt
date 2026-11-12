@@ -1,0 +1,1 @@
+La pubblicazione di collezioni tabellari contenenti informazioni personali richiede l'oscuramento degli identificatori diretti e la generalizzazione dei quasi-identificatori. Il criterio di k-anonimato assicura che ogni combinazione di attributi sensibili sia indistinguibile da almeno altre k meno uno tuple.

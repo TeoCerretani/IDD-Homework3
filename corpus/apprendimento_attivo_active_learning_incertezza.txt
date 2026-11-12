@@ -1,0 +1,1 @@
+Quando l'annotazione manuale degli esempi comporta costi elevati, l'algoritmo seleziona autonomamente dal bacino non etichettato le istanze a massima entropia predittiva. L'interrogazione mirata dell'esperto umano riduce drasticamente il numero di etichette necessarie.

@@ -1,0 +1,1 @@
+L'identificazione di record distinti che fanno riferimento alla medesima entita del mondo reale in assenza di un identificatore comune presenta complessita quadratica. Le tecniche di blocking raggruppano le tuple in partizioni candidate riducendo drasticamente il numero di confronti stringa.

@@ -1,0 +1,1 @@
+Gli algoritmi di profilazione esplorano grandi tabelle sconosciute per estrarre statistiche descrittive, individuare valori nulli anomali e scoprire automaticamente chiavi candidate e inclusioni. Queste informazioni guidano le successive attivita di pulizia e normalizzazione.

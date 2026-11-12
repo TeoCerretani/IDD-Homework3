@@ -1,0 +1,1 @@
+Per fronteggiare l'esaurimento dello spazio di indirizzamento a trentadue bit, i router di confine sostituiscono gli indirizzi privati interni con un unico indirizzo pubblico esterno riscrivendo i numeri di porta del livello di trasporto.

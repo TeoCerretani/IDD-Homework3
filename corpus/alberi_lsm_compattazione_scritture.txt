@@ -1,0 +1,1 @@
+Le strutture Log-Structured Merge-Tree convertono le scritture casuali in append sequenziali accumulando gli aggiornamenti in una tabella ordinata in memoria prima di scaricarli in segmenti immutabili. Processi in background fondono periodicamente i segmenti rimuovendo le chiavi cancellate mediante marcatori tombstone.

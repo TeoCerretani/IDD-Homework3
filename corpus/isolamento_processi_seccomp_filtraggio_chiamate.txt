@@ -1,0 +1,1 @@
+Il confinamento di sicurezza restringe la superficie di attacco di un'applicazione riducendo l'insieme delle chiamate di sistema invocabili a quelle strettamente indispensabili. Ogni tentativo di invocare primitive non autorizzate provoca la terminazione immediata del processo.

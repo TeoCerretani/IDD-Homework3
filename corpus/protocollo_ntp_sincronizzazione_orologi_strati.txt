@@ -1,0 +1,1 @@
+L'allineamento temporale tra elaboratori collegati in rete utilizza una gerarchia di strati riferita a campioni atomici o ricevitori satellitari primari. Lo scambio di quattro timbri temporali permette di stimare simultaneamente lo scarto dell'orologio locale e il ritardo simmetrico di propagazione.

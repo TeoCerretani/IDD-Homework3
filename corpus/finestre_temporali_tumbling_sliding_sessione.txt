@@ -1,0 +1,1 @@
+Nell'elaborazione continua di flussi infiniti di eventi, le aggregazioni vengono calcolate suddividendo il tempo in finestre fisse non sovrapposte, finestre mobili o sessioni separate da intervalli di inattivita. L'impiego di watermark consente di gestire correttamente gli eventi giunti fuori ordine.

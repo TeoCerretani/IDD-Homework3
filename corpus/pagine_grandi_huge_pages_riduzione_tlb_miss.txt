@@ -1,0 +1,1 @@
+L'adozione di pagine di dimensione pari a due megabyte o un gigabyte amplia drasticamente la copertura del buffer di traduzione riducendo la frequenza dei fallimenti di ricerca per le applicazioni che gestiscono grandi strutture in memoria.

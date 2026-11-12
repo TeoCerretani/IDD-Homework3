@@ -1,0 +1,1 @@
+Il meccanismo Read-Copy-Update consente ai lettori di attraversare liste e alberi condivisi senza acquisire alcun lucchetto ne eseguire costose istruzioni atomiche. Gli scrittori creano una copia modificata del nodo e attendono il completamento del periodo di grazia prima di liberare la vecchia versione.

@@ -1,0 +1,1 @@
+La trasmissione ad alta capacita su canali selettivi in frequenza suddivide il flusso informativo su centinaia di sottoportanti ortogonali modulate in ampiezza e quadratura. L'inserimento del prefisso ciclico elimina l'interferenza intersimbolica causata dalle riflessioni multiple.

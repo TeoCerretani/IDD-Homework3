@@ -1,0 +1,1 @@
+Mentre il modello basato sui ruoli assegna i privilegi in funzione della mansione organizzativa, il controllo basato sugli attributi valuta dinamicamente politiche logiche che combinano proprieta del soggetto, della risorsa, dell'azione e del contesto ambientale.

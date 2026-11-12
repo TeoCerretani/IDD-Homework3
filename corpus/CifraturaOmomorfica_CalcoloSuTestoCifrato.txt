@@ -1,0 +1,1 @@
+Gli schemi omomorfici consentono a un servitore esterno non fidato di eseguire addizioni e moltiplicazioni algebriche direttamente sui valori cifrati producendo un risultato che, una volta decifrato dal proprietario, coincide con l'operazione in chiaro.

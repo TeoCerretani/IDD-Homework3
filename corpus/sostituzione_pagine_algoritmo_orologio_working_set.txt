@@ -1,0 +1,1 @@
+Poiche l'implementazione esatta della politica Least Recently Used su ogni singolo riferimento istruzione risulterebbe troppo onerosa, la scansione circolare del bit di utilizzo offre un'approssimazione efficiente. Il monitoraggio dell'insieme di lavoro previene il fenomeno del thrashing.

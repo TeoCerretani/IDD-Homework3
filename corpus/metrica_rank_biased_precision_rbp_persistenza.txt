@@ -1,0 +1,1 @@
+La metrica Rank-Biased Precision introduce un parametro di persistenza che rappresenta la probabilita che l'utente prosegua l'ispezione dalla posizione corrente alla successiva. Questo approccio fornisce una stima robusta anche in presenza di giudizi di rilevanza incompleti.

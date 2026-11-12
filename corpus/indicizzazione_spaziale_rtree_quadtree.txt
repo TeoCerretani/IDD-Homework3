@@ -1,0 +1,1 @@
+Le interrogazioni di intersezione geometrica e di ricerca dei vicini piu prossimi nello spazio bidimensionale utilizzano alberi bilanciati di rettangoli minimi di contenimento. Il raggruppamento gerarchico degli oggetti spaziali permette di potare interi rami durante l'esplorazione.

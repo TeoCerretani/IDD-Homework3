@@ -1,0 +1,1 @@
+Poiche i termini del lessico sono memorizzati in ordine alfabetico, parole consecutive condividono frequentemente lunghi prefissi comuni. La tecnica di Front Coding sostituisce il prefisso ripetuto con la sua lunghezza numerica riducendo drasticamente l'ingombro del dizionario in memoria.

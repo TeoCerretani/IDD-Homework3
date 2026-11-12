@@ -1,0 +1,1 @@
+A differenza della semplice correlazione statistica, il calcolo degli interventi stima l'effetto di una manipolazione attiva sulle variabili mediante l'eliminazione dei fattori confondenti. L'analisi controfattuale valuta cosa sarebbe accaduto sotto ipotesi alternative.

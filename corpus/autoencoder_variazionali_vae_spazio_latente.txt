@@ -1,0 +1,1 @@
+La formulazione variazionale vincola la distribuzione delle variabili latenti ad approssimare una gaussiana standard mediante un termine di divergenza di Kullback-Leibler. La regolarita dello spazio latente risultante consente di generare nuovi campioni coerenti per interpolazione continua.

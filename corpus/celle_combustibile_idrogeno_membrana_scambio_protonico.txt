@@ -1,0 +1,1 @@
+I convertitori elettrochimici trasformano direttamente l'entalpia chimica dell'idrogeno e dell'ossigeno in corrente continua producendo esclusivamente vapore acqueo come sottoprodotto. L'assenza di un ciclo termico intermedio consente rendimenti superiori al limite di Carnot.

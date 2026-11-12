@@ -1,0 +1,1 @@
+I motori di interrogazione distribuita delegano l'applicazione dei filtri di selezione e delle proiezioni direttamente ai nodi di memorizzazione remoti. Il pushdown dei predicati riduce drasticamente il volume di traffico trasferito lungo la rete durante l'esecuzione delle analisi.

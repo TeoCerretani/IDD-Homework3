@@ -1,0 +1,1 @@
+A differenza del guadagno cumulativo scontato che assume indipendenza tra le posizioni, l'Expected Reciprocal Rank modella la probabilita che l'utente interrompa la ricerca non appena incontra un risultato pienamente soddisfacente.

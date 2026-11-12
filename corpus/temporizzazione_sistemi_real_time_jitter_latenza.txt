@@ -1,0 +1,1 @@
+Nelle applicazioni di controllo industriale e avionico la correttezza del calcolo dipende dal rispetto rigoroso delle scadenze temporali oltre che dal risultato aritmetico. I kernel predicibili eliminano le sezioni non interrompibili per garantire un limite superiore certo alla latenza.

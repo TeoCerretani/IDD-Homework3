@@ -1,0 +1,1 @@
+Gli schemi Patched Frame-of-Reference comprimono blocchi di centoventiotto interi utilizzando un numero fisso di bit pari al valore necessario per la maggioranza degli elementi. I rari valori anomali eccedenti vengono memorizzati separatamente in coda al blocco consentendo una decodifica vettoriale velocissima.

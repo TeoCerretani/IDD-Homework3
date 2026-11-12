@@ -1,0 +1,1 @@
+La ricodifica di Booth dimezza il numero di prodotti parziali da sommare durante la moltiplicazione di interi con segno trattando sequenze contigue di bit unitari. Gli alberi di sommatore Carry-Save comprimono in parallelo i prodotti parziali in soli due operandi finali.

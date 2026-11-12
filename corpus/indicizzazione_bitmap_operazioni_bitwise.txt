@@ -1,0 +1,1 @@
+Gli indici a mappa di bit associano a ciascun valore distinto di un attributo a bassa cardinalita un vettore binario lungo quanto il numero di righe della tabella. Le interrogazioni congiuntive e disgiuntive vengono risolte con estrema rapidita mediante istruzioni logiche bit a bit del processore.

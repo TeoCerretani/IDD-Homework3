@@ -1,0 +1,1 @@
+I predittori statistici addestrati su archivi storici possono ereditare e amplificare disparita di trattamento verso sottogruppi protetti. L'imposizione di vincoli di parita demografica o di uguaglianza delle opportunita riequilibra i tassi di errore tra le popolazioni.

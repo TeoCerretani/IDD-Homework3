@@ -1,0 +1,1 @@
+Per ridurre al minimo il tempo durante il quale le linee di interruzione hardware restano disabilitate, la routine di servizio esegue immediatamente solo il riconoscimento critico. L'elaborazione prolungata dei pacchetti o dei blocchi viene differita a code eseguite in modo asincrono.

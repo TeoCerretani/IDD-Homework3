@@ -1,0 +1,1 @@
+I pianificatori simbolici generano sequenze di azioni che conducono da uno stato iniziale a un obiettivo specificando precondizioni ed effetti logici. Il rilassamento del problema mediante l'eliminazione degli effetti di cancellazione fornisce euristiche ammissibili efficaci.

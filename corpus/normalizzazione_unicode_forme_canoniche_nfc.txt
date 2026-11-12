@@ -1,0 +1,1 @@
+Caratteri accentati visivamente identici possono essere rappresentati in Unicode come un singolo punto di codice precomposto oppure come sequenza di lettera base e segno diacritico combinante. La normalizzazione canonica unifica le due forme prima del confronto lessicale.

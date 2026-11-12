@@ -1,0 +1,1 @@
+La modellazione sistematica delle minacce in fase di progettazione scompone il software nei suoi flussi elementari analizzando i rischi di usurpazione d'identita, manomissione, ripudio, divulgazione, negazione del servizio ed elevazione dei privilegi.

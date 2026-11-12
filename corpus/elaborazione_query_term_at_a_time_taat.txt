@@ -1,0 +1,1 @@
+La strategia Term-at-a-Time elabora integralmente una lista di occorrenza alla volta accumulando i contributi parziali di punteggio all'interno di una tabella di accumulatori. Sebbene favorisca accessi sequenziali alla memoria, richiede strutture di accumulo proporzionali al numero di candidati.

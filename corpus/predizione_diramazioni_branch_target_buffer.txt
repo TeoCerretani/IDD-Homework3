@@ -1,0 +1,1 @@
+Per evitare lo svuotamento della catena di esecuzione in presenza di salti condizionati, i predittori dinamici a contatori saturanti e le tabelle di storia globale stimano la direzione del ramo prima del calcolo della condizione. Il buffer di destinazione fornisce immediatamente l'indirizzo della prossima istruzione.

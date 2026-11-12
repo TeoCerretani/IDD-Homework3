@@ -1,0 +1,1 @@
+Le reti prototipiche apprendono uno spazio metrico in cui ciascuna nuova categoria viene rappresentata dalla media vettoriale di pochissimi esempi di supporto. La classificazione di un nuovo elemento avviene per semplice distanza euclidea rispetto ai prototipi calcolati.

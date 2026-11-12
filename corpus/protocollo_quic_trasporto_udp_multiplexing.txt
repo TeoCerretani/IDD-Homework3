@@ -1,0 +1,1 @@
+Il moderno protocollo di trasporto su datagrammi integra nativamente la negoziazione sicura riducendo a un solo tempo di andata e ritorno l'apertura della connessione. L'indipendenza dei flussi multipli elimina il blocco in testa alla coda causato dalla perdita di un singolo pacchetto.

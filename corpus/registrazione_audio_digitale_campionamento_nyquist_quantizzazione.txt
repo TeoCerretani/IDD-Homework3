@@ -1,0 +1,1 @@
+La conversione analogico-digitale di un'esecuzione musicale misura l'ampiezza dell'onda sonora a una frequenza almeno doppia rispetto alla massima componente udibile, codificando ciascun campione in parole binarie ad alta risoluzione.

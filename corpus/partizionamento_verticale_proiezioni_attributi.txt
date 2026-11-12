@@ -1,0 +1,1 @@
+La suddivisione verticale di una tabella ampia separa gli attributi consultati frequentemente da quelli voluminosi o raramente richiesti. Tale organizzazione riduce la quantita di blocchi trasferiti dal disco durante le scansioni analitiche mirate.

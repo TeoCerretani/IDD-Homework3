@@ -1,0 +1,1 @@
+A differenza dell'algebra, il calcolo relazionale esprime le interrogazioni in forma dichiarativa specificando le proprieta logiche delle tuple o dei domini desiderati. Il teorema di Codd dimostra l'equivalenza espressiva tra l'algebra relazionale e il calcolo relazionale sicuro.

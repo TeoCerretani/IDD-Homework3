@@ -1,0 +1,1 @@
+La standardizzazione delle attivazioni intermedie lungo la dimensione del mini-batch o lungo i canali del singolo esempio regolarizza il paesaggio di ottimizzazione. Questa tecnica permette di adottare passi di aggiornamento piu ampi riducendo la sensibilita all'inizializzazione dei pesi.

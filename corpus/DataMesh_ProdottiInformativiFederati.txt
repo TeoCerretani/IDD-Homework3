@@ -1,0 +1,1 @@
+Il paradigma organizzativo decentralizzato assegna la proprieta e la responsabilita della qualita delle sorgenti direttamente ai gruppi di dominio che le generano. Un'infrastruttura self-service condivisa e standard di interoperabilita federati prevengono la formazione di colli di bottiglia centralizzati.

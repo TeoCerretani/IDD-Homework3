@@ -1,0 +1,1 @@
+Le interconnessioni periferiche ad alta velocita impiegano coppie differenziali seriali punto-a-punto organizzate in corsie aggregabili con codifica a pacchetto. Il trasferimento diretto consente alle schede di rete e ai dischi di leggere e scrivere senza intervento del processore.

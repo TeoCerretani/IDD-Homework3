@@ -1,0 +1,1 @@
+L'algoritmo Block Sort-Based Indexing costruisce l'indice su collezioni che superano la memoria centrale accumulando coppie identificativo-termine in blocchi di dimensione fissa. Ciascun blocco viene ordinato in memoria e scaricato su disco prima della fusione finale a piu vie.

@@ -1,0 +1,1 @@
+L'ottimizzazione agnostica rispetto al compito cerca una configurazione iniziale dei parametri tale che pochi passi di discesa del gradiente su una nuova distribuzione producano elevate prestazioni. Questo approccio impara ad adattarsi rapidamente a contesti inediti.

@@ -1,0 +1,1 @@
+I distributori di traffico ripartiscono le richieste in ingresso su una batteria di servitori applicativi verificandone continuamente lo stato di salute. L'ispezione a livello applicativo consente di instradare le chiamate in base all'indirizzo uniforme della risorsa o alle intestazioni.

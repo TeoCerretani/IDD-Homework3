@@ -1,0 +1,1 @@
+Nei mezzi radio condivisi in cui una stazione trasmittente non puo rilevare simultaneamente le collisioni, il protocollo di accesso adotta un ascolto preventivo seguito da un tempo di attesa casuale esponenziale. Lo scambio di brevi trame di prenotazione risolve il problema del terminale nascosto.

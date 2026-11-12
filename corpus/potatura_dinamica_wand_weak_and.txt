@@ -1,0 +1,1 @@
+L'algoritmo Weak AND associa a ciascuna lista di occorrenza il punteggio massimo raggiungibile dal termine su tutta la collezione. Ordinando i puntatori correnti, il valutatore salta direttamente i candidati la cui somma dei massimi teorici non puo superare la soglia minima della coda top-k.

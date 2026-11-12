@@ -1,0 +1,1 @@
+Le dipendenze di anti-dipendenza e di uscita derivano dal riutilizzo del medesimo nome di registro architetturale da parte di istruzioni logicamente indipendenti. La mappatura dinamica su un ampio insieme di registri fisici elimina tali conflitti abilitando il riordino delle istruzioni.

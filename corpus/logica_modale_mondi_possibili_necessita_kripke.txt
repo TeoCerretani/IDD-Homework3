@@ -1,0 +1,1 @@
+L'estensione del calcolo proposizionale e predicativo mediante gli operatori di necessita e possibilita trova una semantica formale rigorosa attraverso le relazioni di accessibilita tra mondi possibili alternativi.

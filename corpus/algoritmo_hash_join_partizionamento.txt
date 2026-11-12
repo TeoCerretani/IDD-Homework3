@@ -1,0 +1,1 @@
+L'esecuzione dell'operatore di giunzione per uguaglianza su tabelle prive di indici sfrutta una fase di costruzione in cui la relazione minore viene inserita in una tabella hash in memoria. Qualora le relazioni superino la capienza disponibile, l'algoritmo Grace Hash Join ripartisce entrambi gli ingressi su disco mediante una funzione di dispersione comune.

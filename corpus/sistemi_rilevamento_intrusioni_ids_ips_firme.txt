@@ -1,0 +1,1 @@
+Gli analizzatori di sicurezza ispezionano il traffico in transito combinando il riconoscimento di sequenze note di attacco con modelli statistici di deviazione dal profilo normale. I dispositivi di prevenzione in linea bloccano istantaneamente i flussi sospetti.

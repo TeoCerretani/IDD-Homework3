@@ -1,0 +1,1 @@
+In luogo di elencare individualmente ogni singolo blocco fisico di quattro kilobyte, i moderni gestori di archiviazione descrivono sequenze contigue mediante triple compatte inizio-lunghezza. Questa rappresentazione ad estensioni riduce la dimensione dei metadati e favorisce letture sequenziali.

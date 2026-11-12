@@ -1,0 +1,1 @@
+Un protocollo a conoscenza zero permette a un dimostratore di convincere un verificatore della validita di un'affermazione matematica senza rivelare alcuna informazione aggiuntiva oltre alla verita dell'enunciato stesso.

@@ -1,0 +1,1 @@
+La rappresentazione nativa di nodi, archi orientati e proprieta mediante adiacenza diretta evita il calcolo di costose giunzioni relazionali durante le esplorazioni profonde. I linguaggi dichiarativi di pattern matching permettono di individuare cicli, comunita e percorsi ottimi.

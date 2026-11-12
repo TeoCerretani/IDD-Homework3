@@ -1,0 +1,1 @@
+Lo schema a interazione tardiva conserva le rappresentazioni vettoriali di ogni singolo token calcolando a tempo di ricerca la somma delle massime similarita coseno. Questo compromesso coniuga l'efficienza dei codificatori doppi con la precisione dell'attenzione incrociata.

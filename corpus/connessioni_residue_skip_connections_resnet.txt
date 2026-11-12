@@ -1,0 +1,1 @@
+I collegamenti identita che sommano l'ingresso di un blocco direttamente alla sua uscita consentono al segnale di errore di propagarsi senza attenuazione attraverso centinaia di strati. Ogni blocco apprende pertanto una correzione residua rispetto alla rappresentazione preesistente.

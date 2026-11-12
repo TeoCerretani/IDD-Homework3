@@ -1,0 +1,1 @@
+L'esecuzione speculativa di regioni critiche traccia gli insiemi di lettura e scrittura direttamente attraverso il protocollo di coerenza delle linee cache. Qualora un altro nucleo modifichi una linea coinvolta, la transazione viene annullata trasparentemente ripiegando sul lucchetto tradizionale.

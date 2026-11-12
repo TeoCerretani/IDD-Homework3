@@ -1,0 +1,1 @@
+I punteggi grezzi restituiti da molti classificatori marginale o ad albero non riflettono fedelmente la reale frequenza empirica di successo. La calibrazione post-hoc mediante regressione sigmoide o isotona trasforma le uscite in stime di probabilita affidabili per le decisioni critiche.

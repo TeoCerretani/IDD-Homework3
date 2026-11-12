@@ -1,0 +1,1 @@
+La macchina virtuale integrata permette di eseguire piccoli programmi verificati staticamente in risposta a chiamate di sistema, eventi di rete o punti di traccia senza ricompilare ne riavviare l'ambiente.

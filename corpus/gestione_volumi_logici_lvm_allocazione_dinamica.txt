@@ -1,0 +1,1 @@
+Lo strato di astrazione dei volumi logici aggrega molteplici partizioni fisiche in un unico bacino di archiviazione da cui ritagliare partizioni virtuali ridimensionabili a caldo senza interrompere i servizi attivi.

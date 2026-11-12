@@ -1,0 +1,1 @@
+Le simulazioni numeriche del sistema climatico risolvono le equazioni primitive della fluidodinamica su griglie tridimensionali accoppiando atmosfera, oceani, criosfera e biosfera terrestre.

@@ -1,0 +1,1 @@
+Sebbene le istruzioni vengano eseguite fuori ordine non appena i rispettivi operandi risultano pronti, il ritiro finale e l'aggiornamento dello stato visibile avvengono rigorosamente nell'ordine sequenziale del programma. Questa disciplina garantisce la gestione precisa delle interruzioni.

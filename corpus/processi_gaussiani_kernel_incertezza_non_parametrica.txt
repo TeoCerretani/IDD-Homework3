@@ -1,0 +1,1 @@
+I metodi non parametrici bayesiani definiscono una distribuzione a priori direttamente sullo spazio delle funzioni continue mediante una matrice di covarianza definita positiva. Ogni predizione puntuale viene accompagnata da un intervallo di confidenza analitico.

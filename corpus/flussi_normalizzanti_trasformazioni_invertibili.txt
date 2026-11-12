@@ -1,0 +1,1 @@
+Una sequenza di trasformazioni biiettive con determinante dello jacobiano facilmente calcolabile permette di stimare esattamente la densita di probabilita di distribuzioni complesse. L'invertibilita algebrica garantisce sia il campionamento diretto sia la valutazione esatta della verosimiglianza.

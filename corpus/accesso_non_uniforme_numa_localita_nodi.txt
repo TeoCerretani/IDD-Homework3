@@ -1,0 +1,1 @@
+Negli elaboratori multiprocessore a banchi distribuiti il tempo di latenza varia in funzione della distanza fisica tra il nucleo richiedente e il controllore a cui appartiene l'indirizzo. L'allocatore cerca pertanto di collocare le pagine sullo stesso nodo in cui risiede il thread.

@@ -1,0 +1,1 @@
+I dizionari di blocco impiegano trasduttori deterministi a stati finiti minimizzati per mappare i prefissi dei termini direttamente agli indirizzi su disco. Questa struttura compatta risiede interamente in memoria centrale garantendo tempi di ricerca logaritmici o costanti.

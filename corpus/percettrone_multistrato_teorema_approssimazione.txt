@@ -1,0 +1,1 @@
+Una rete feed-forward dotata di almeno uno strato nascosto con funzioni di attivazione non lineari puo approssimare qualsiasi funzione continua su un dominio compatto. La profondita architetturale consente di rappresentare gerarchie compositive con un numero esponenzialmente minore di parametri.

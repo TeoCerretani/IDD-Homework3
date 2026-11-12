@@ -1,0 +1,1 @@
+Gli ambienti di esecuzione fidata isolano porzioni sensibili di codice e memoria cifrandone il contenuto direttamente nel controllore del processore. In tal modo neppure l'amministratore dell'infrastruttura ospitante puo ispezionare le elaborazioni in corso.

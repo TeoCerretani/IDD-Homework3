@@ -1,0 +1,1 @@
+Lo schema a soglia di Shamir suddivide un segreto critico in molteplici quote distribuite a custodi differenti rappresentandolo come il termine noto di un polinomio su un campo finito. L'interpolazione di Lagrange ricostruisce il valore solo riunendo un numero minimo prefissato di parti.

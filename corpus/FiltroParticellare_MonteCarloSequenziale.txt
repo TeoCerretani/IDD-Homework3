@@ -1,0 +1,1 @@
+Quando la dinamica del sistema o la funzione di osservazione presentano forti non linearita e distribuzioni multimodali, la densita a posteriori viene approssimata da una nuvola di campioni pesati. Il ricampionamento periodico concentra le particelle nelle regioni ad alta verosimiglianza.

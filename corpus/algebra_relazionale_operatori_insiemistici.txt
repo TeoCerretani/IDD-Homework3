@@ -1,0 +1,1 @@
+Gli operatori primitivi di selezione, proiezione, prodotto cartesiano, unione, differenza e ridenominazione costituiscono un linguaggio procedurale completo per la manipolazione di relazioni. Le equivalenze algebriche consentono al pianificatore di riscrivere le espressioni riducendo la cardinalita dei risultati intermedi.

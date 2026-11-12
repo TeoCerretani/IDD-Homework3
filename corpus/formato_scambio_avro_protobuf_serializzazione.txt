@@ -1,0 +1,1 @@
+I formati binari guidati dallo schema riducono drasticamente la dimensione dei messaggi trasmessi lungo i canali di ingestione rispetto alle rappresentazioni testuali verbali. La gestione dell'evoluzione dello schema garantisce la compatibilita in avanti e all'indietro tra produttori e consumatori.

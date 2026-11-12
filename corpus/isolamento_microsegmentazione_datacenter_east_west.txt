@@ -1,0 +1,1 @@
+Per impedire il movimento laterale di un attaccante penetrato all'interno del perimetro, la microsegmentazione applica politiche di filtraggio granulari direttamente sulle interfacce virtuali di ciascun carico di lavoro.

@@ -1,0 +1,1 @@
+La presenza di attributi multivalore indipendenti all'interno della medesima tabella genera ridondanze combinatorie non rilevabili dalle sole dipendenze funzionali. La quarta forma normale isola tali relazioni indipendenti in schemi distinti eliminando le anomalie di aggiornamento.

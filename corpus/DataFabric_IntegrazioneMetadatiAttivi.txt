@@ -1,0 +1,1 @@
+L'impiego di grafi della conoscenza e di analisi continua dei registri di utilizzo consente di automatizzare la scoperta e la raccomandazione di insiemi informativi correlati. I connettori semantici unificano l'accesso attraverso ambienti ibridi multi-cloud.

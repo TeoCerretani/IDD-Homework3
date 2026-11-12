@@ -58,7 +58,7 @@ class LuceneSearchTest {
     @BeforeAll
     static void setUp() throws Exception {
         int count = FileIndexer.indexDocs("corpus", tempIndexDir.toString());
-        assertEquals(200, count);
+        assertEquals(600, count);
 
         directory = FSDirectory.open(tempIndexDir);
         reader = DirectoryReader.open(directory);
@@ -209,14 +209,14 @@ class LuceneSearchTest {
         File[] allFiles = new File("corpus").listFiles((d, name) -> name.toLowerCase().endsWith(".txt"));
         assertNotNull(allFiles);
         Arrays.sort(allFiles, Comparator.comparing(File::getName));
-        assertEquals(200, allFiles.length);
+        assertEquals(600, allFiles.length);
 
         System.out.println("\n=== BENCHMARK TEMPI DI INDICIZZAZIONE (Slide 34: Default vs SimpleTextCodec) ===");
         // Warm-up JVM JIT e classloading dei Codec
-        measureIndexingTime(allFiles, 25, benchDir.resolve("warmup_def"), false);
-        measureIndexingTime(allFiles, 25, benchDir.resolve("warmup_st"), true);
+        measureIndexingTime(allFiles, 50, benchDir.resolve("warmup_def"), false);
+        measureIndexingTime(allFiles, 50, benchDir.resolve("warmup_st"), true);
 
-        int[] sizes = {25, 50, 100, 150, 200};
+        int[] sizes = {50, 100, 200, 400, 600};
         for (int n : sizes) {
             long timeDefault = measureIndexingTime(allFiles, n, benchDir.resolve("idx_def_" + n), false);
             long timeSimpleText = measureIndexingTime(allFiles, n, benchDir.resolve("idx_st_" + n), true);
@@ -302,6 +302,7 @@ class LuceneSearchTest {
             File[] allFiles, Path idxPath, List<?> rawCases, boolean printPerQuery) throws Exception {
         Directory dir = FSDirectory.open(idxPath);
         IndexWriterConfig config = new IndexWriterConfig(analyzer);
+        config.setSimilarity(similarity);
         IndexWriter writer = new IndexWriter(dir, config);
         writer.deleteAll();
         for (File file : allFiles) {
@@ -332,7 +333,7 @@ class LuceneSearchTest {
 
             Query q = ConsoleSearcher.parseQuery(qStr, analyzer);
             TopDocs top10 = s.search(q, 10);
-            TopDocs topAll = s.search(q, 200);
+            TopDocs topAll = s.search(q, 600);
 
             int tp10 = 0;
             double apSum = 0.0;

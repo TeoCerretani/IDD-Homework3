@@ -1,0 +1,1 @@
+Per massimizzare il throughput, i nuclei moderni accodano le scritture in un buffer locale permettendo alle letture successive di scavalcarle. L'inserimento esplicito di barriere di serializzazione garantisce l'ordine di visibilita richiesto dagli algoritmi concorrenti.

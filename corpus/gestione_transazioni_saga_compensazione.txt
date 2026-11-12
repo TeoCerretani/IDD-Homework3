@@ -1,0 +1,1 @@
+Negli ambienti a microservizi in cui ciascun componente mantiene un deposito autonomo, i blocchi distribuiti prolungati risultano impraticabili. Il pattern Saga coordina una sequenza di transazioni locali eseguendo transazioni di compensazione semantica qualora uno dei passi intermedi fallisca.

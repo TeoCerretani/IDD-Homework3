@@ -1,0 +1,1 @@
+Gli algoritmi di disambiguazione lessicale determinano il significato corretto di un vocabolo polisemico confrontando il contesto della frase con le definizioni di un dizionario strutturato. L'identificazione del senso preciso riduce i falsi positivi durante il recupero.

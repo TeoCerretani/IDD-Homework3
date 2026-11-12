@@ -1,0 +1,1 @@
+Lo standard binario di interfaccia definisce quali registri debbano essere preservati dal chiamante e quali dal chiamato durante l'invocazione di una sottoroutine. L'allocazione del record di attivazione sullo stack supporta la ricorsione arbitraria.

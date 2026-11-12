@@ -1,0 +1,1 @@
+La rappresentazione gerarchica ad albero consente di descrivere informazioni con struttura flessibile o irregolare corredate da definizioni formali XSD. Le espressioni di cammino navigano gli assi del documento selezionando nodi ed attributi secondo predicati posizionali e logici.

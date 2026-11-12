@@ -1,0 +1,1 @@
+Il sommatore a propagazione lineare soffre di un ritardo proporzionale al numero di bit degli operandi a causa della catena dei riporti. Le reti Carry-Lookahead precalcolano i segnali di generazione e propagazione riducendo il tempo di somma a una crescita logaritmica.

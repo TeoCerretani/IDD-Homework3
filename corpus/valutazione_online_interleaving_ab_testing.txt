@@ -1,0 +1,1 @@
+Negli ambienti operativi ad alto traffico il confronto tra due funzioni di ordinamento avviene mescolando in un'unica lista i risultati prodotti dai due algoritmi. L'analisi statistica dei clic degli utenti rivela quale variante generi maggiore soddisfazione senza richiedere giudizi manuali.

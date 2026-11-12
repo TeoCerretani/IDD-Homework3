@@ -1,0 +1,1 @@
+L'etichettatura di sequenze testuali individua nomi di persone, organizzazioni, luoghi ed espressioni temporali combinando rappresentazioni contestuali con campi aleatori condizionati. Lo strato finale ottimizza globalmente la sequenza di etichette evitando transizioni illegali.

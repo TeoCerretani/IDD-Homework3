@@ -1,0 +1,1 @@
+La rappresentazione vettoriale di entita e relazioni modella ogni tripla fattuale come una traslazione geometrica nello spazio continuo. Questo approccio consente di predire collegamenti mancanti e verificare la plausibilita di nuove asserzioni.

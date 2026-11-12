@@ -1,0 +1,1 @@
+Il tracciamento del lignaggio documenta l'origine di ciascun valore derivato registrando la catena completa di estrazioni, filtri e aggregazioni subite lungo il percorso. Questa tracciabilita fine risulta indispensabile per la verifica di conformita normativa e per la diagnosi delle anomalie.

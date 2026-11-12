@@ -1,0 +1,1 @@
+La trascrizione del parlato continuo allinea sequenze acustiche di lunghezza variabile con sequenze di caratteri senza richiedere una segmentazione temporale preventiva. La perdita Connectionist Temporal Classification somma le probabilita su tutti gli allineamenti ammissibili.

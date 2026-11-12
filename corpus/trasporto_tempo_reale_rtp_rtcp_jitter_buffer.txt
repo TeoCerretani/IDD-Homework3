@@ -1,0 +1,1 @@
+La trasmissione interattiva di flussi audio e video associa a ciascun pacchetto un numero di sequenza e una marca temporale di campionamento. Il buffer di compensazione presso il ricevitore assorbe la variabilita del ritardo di transito garantendo una riproduzione fluida.

@@ -1,0 +1,1 @@
+Per contrastare la manipolazione artificiale dei collegamenti ipertestuali e l'inserimento nascosto di parole chiave, gli algoritmi di reputazione propagano un punteggio di fiducia a partire da un insieme selezionato di siti istituzionali verificati.

@@ -1,0 +1,1 @@
+L'addestramento di rappresentazioni visive e testuali senza etichette manuali massimizza l'accordo tra viste diverse del medesimo campione ottenute per trasformazione geometrica o mascheramento. Le caratteristiche apprese trasferiscono efficacemente la conoscenza verso compiti a valle.

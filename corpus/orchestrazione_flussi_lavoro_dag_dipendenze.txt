@@ -1,0 +1,1 @@
+L'automazione dei flussi di trasformazione analitica modella i compiti elaborativi come un grafo diretto aciclico in cui gli archi esprimono vincoli di precedenza temporale. Il gestore di orchestrazione pianifica l'esecuzione distribuita gestendo i tentativi di ripetizione in caso di errore.

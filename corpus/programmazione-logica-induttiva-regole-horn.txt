@@ -1,0 +1,1 @@
+L'induzione simbolica costruisce ipotesi espresse sotto forma di clausole logiche del primo ordine che coprono gli esempi positivi escludendo quelli negativi. Le regole apprese risultano immediatamente leggibili e verificabili dagli esperti di dominio.

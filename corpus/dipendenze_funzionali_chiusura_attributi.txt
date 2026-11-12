@@ -1,0 +1,1 @@
+La teoria della progettazione relazionale formalizza i vincoli semantici tra insiemi di attributi attraverso gli assiomi di Armstrong di riflessivita, aumento e transitivita. Il calcolo della chiusura di un sottoinsieme di attributi permette di verificare algoritmicamente le superchiavi dello schema.

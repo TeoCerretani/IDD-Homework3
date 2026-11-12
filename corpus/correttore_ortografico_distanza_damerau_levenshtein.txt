@@ -1,0 +1,1 @@
+La correzione automatica degli errori di battitura nelle interrogazioni calcola il numero minimo di inserimenti, cancellazioni, sostituzioni e trasposizioni di caratteri adiacenti. L'intersezione preliminare sugli indici di k-grammi restringe il calcolo della distanza ai soli vocaboli lessicalmente vicini.

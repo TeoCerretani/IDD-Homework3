@@ -1,0 +1,1 @@
+Un raccoglitore automatico esplora il web mantenendo code di frontiera separate per ciascun dominio ospite al fine di rispettare i tempi di attesa tra richieste successive. Il protocollo di esclusione indica quali percorsi non devono essere sottoposti a scansione automatica.

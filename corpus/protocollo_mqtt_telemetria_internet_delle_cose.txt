@@ -1,0 +1,1 @@
+Il protocollo leggero di pubblicazione e sottoscrizione su trasporto affidabile riduce al minimo l'intestazione di controllo per adattarsi a dispositivi remoti con banda limitata. I tre livelli di qualita del servizio regolano la garanzia di consegna dei messaggi.

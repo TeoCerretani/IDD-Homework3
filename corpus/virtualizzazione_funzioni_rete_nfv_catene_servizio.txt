@@ -1,0 +1,1 @@
+La sostituzione di apparati dedicati proprietari con funzioni software eseguite su servitori standard consente di istanziare dinamicamente catene elastiche di filtraggio, bilanciamento e ispezione.

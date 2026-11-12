@@ -1,0 +1,1 @@
+Il guadagno massimo di velocita ottenibile parallelizzando un programma su molteplici unita di calcolo e intrinsecamente limitato dalla frazione di codice che deve essere eseguita in modo strettamente sequenziale. Di conseguenza l'ottimizzazione delle sezioni critiche seriali risulta prioritaria.

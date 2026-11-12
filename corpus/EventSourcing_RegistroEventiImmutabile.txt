@@ -1,0 +1,1 @@
+In luogo di sovrascrivere lo stato corrente di un'entita, l'approccio Event Sourcing conserva la sequenza storica immutabile di tutti i fatti significativi verificatisi nel dominio. Lo stato attuale in un istante arbitrario puo essere ricostruito riproducendo ordinatamente gli eventi registrati.

@@ -1,0 +1,1 @@
+Molti problemi di stima statistica possono essere formulati come la minimizzazione di una funzione convessa soggetta a vincoli di disuguaglianza affini. Le condizioni di Karush-Kuhn-Tucker caratterizzano analiticamente l'ottimo globale garantendo l'assenza di minimi locali.

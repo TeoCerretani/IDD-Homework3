@@ -1,0 +1,1 @@
+La rappresentazione universale di Elias codifica gli scarti positivi tra identificativi consecutivi anteponendo la lunghezza binaria espressa in codice unario. La variante Delta comprime ulteriormente la lunghezza stessa risultando vantaggiosa per scarti di ampiezza elevata.

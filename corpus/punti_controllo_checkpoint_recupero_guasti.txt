@@ -1,0 +1,1 @@
+L'esecuzione periodica di checkpoint riduce il tempo necessario al ripristino dopo un malfunzionamento limitando la porzione del giornale transazionale da riesaminare. I checkpoint non bloccanti consentono di registrare lo stato delle pagine sporche senza interrompere l'elaborazione ordinaria.

@@ -1,0 +1,1 @@
+A differenza della cifratura che rende il messaggio incomprensibile ma visibile, la steganografia nasconde l'esistenza stessa della comunicazione alterando i bit meno significativi dei campioni multimediali di copertura.

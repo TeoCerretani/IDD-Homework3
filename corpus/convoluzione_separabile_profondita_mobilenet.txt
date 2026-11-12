@@ -1,0 +1,1 @@
+La fattorizzazione di un'operazione convoluzionale standard in un filtro spaziale per singolo canale seguito da una combinazione lineare puntuale riduce drasticamente il costo computazionale. Questo schema permette l'esecuzione in tempo reale su dispositivi mobili a basso consumo.

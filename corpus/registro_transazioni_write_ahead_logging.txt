@@ -1,0 +1,1 @@
+Il protocollo Write-Ahead Logging impone che ogni record di modifica venga scritto stabilmente sul giornale sequenziale prima che la pagina corrispondente venga sovrascritta su disco. In caso di arresto anomalo, l'algoritmo ARIES ricostruisce lo stato consistente mediante le fasi di analisi, ripetizione e annullamento.

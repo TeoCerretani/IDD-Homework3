@@ -1,0 +1,1 @@
+La verifica crittografica a livello di blocco valida ogni lettura dal disco confrontando l'impronta calcolata con i nodi di un albero di hash radicato in una chiave firmata. Questa protezione impedisce modifiche persistenti non autorizzate alle partizioni di avvio.

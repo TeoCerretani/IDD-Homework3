@@ -1,0 +1,1 @@
+La minimizzazione algebrica delle funzioni booleane riduce il numero di porte logiche e di ingressi necessari per realizzare una rete combinatoria. L'eliminazione dei termini ridondanti diminuisce l'area occupata sul circuito e il ritardo di propagazione.

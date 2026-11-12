@@ -1,0 +1,1 @@
+Nei sistemi di disseminazione selettiva un flusso continuo di nuovi articoli viene confrontato con profili di interesse permanenti registrati dagli utenti. Le soglie adattive regolano il compromesso tra tempestivita di notifica e tolleranza al rumore.

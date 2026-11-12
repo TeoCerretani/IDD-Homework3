@@ -1,0 +1,1 @@
+I formati di istruzione a lunghezza fissa di trentadue bit semplificano notevolmente il circuito di prelievo e decodifica parallela, mentre le codifiche a lunghezza variabile migliorano la densita del codice compilato riducendo i fallimenti della cache istruzioni.

@@ -1,0 +1,1 @@
+Il sistema comune di valutazione delle vulnerabilita assegna un indice numerico di severita combinando la facilita di sfruttamento da remoto con l'impatto potenziale su riservatezza, integrita e disponibilita.

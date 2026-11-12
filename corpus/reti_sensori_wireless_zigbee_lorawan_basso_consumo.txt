@@ -1,0 +1,1 @@
+Le reti di monitoraggio ambientale distribuite su vasta scala alternano lunghi periodi di ibernazione profonda a brevissime finestre di trasmissione radio. Le modulazioni a spettro espanso garantiscono la ricezione anche a bassissimo rapporto segnale-rumore.

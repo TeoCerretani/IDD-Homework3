@@ -1,0 +1,1 @@
+La risoluzione dei problemi di soddisfacimento di vincoli esplora l'albero delle assegnazioni combinando la ricerca in profondita con la propagazione della consistenza d'arco. L'euristica della variabile piu vincolata individua tempestivamente i rami privi di soluzione.

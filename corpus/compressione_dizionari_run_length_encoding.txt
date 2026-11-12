@@ -1,0 +1,1 @@
+Nei motori analitici orientati alle colonne, la contigita fisica di valori appartenenti al medesimo dominio favorisce tassi di compressione elevatissimi. La codifica a lunghezza di sequenza e la sostituzione tramite dizionario intero consentono di eseguire predicati di selezione direttamente sui codici compressi.

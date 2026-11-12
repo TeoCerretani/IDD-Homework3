@@ -1,0 +1,1 @@
+La riduzione del codice eseguito in modalita privilegiata alle sole primitive di comunicazione interprocesso, pianificazione base e gestione degli spazi di indirizzamento consente di dimostrare matematicamente l'assenza di errori di implementazione.

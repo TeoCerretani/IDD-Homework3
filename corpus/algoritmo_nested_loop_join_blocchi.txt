@@ -1,0 +1,1 @@
+L'iterazione annidata a blocchi riduce drasticamente il numero di accessi al disco rispetto al confronto tupla per tupla mantenendo in memoria un intero segmento della relazione esterna. L'esistenza di una struttura di accesso sulla relazione interna trasforma l'operazione in un Index Nested Loop Join.

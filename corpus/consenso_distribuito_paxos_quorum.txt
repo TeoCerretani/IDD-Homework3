@@ -1,0 +1,1 @@
+Il raggiungimento dell'accordo su un valore condiviso all'interno di una rete asincrona soggetta a ritardi e cadute dei nodi richiede l'intersezione garantita tra maggioranze di voto. I protocolli basati su quorum assicurano la sicurezza delle decisioni anche in presenza di partizioni temporanee.

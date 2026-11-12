@@ -1,0 +1,1 @@
+L'algoritmo stocastico accetta occasionalmente mosse peggiorative con una probabilita governata dalla distribuzione di Boltzmann e da un parametro di controllo decrescente. Il raffreddamento lento consente di superare le barriere energetiche convergendo verso il minimo globale.

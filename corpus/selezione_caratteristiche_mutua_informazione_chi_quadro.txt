@@ -1,0 +1,1 @@
+Per ridurre la dimensionalita dello spazio lessicale nei classificatori testuali si selezionano i vocaboli statisticamente piu correlati con l'etichetta di categoria. Le statistiche di mutua informazione e del chi-quadro scartano i termini distribuiti uniformemente tra le classi.

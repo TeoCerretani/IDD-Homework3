@@ -1,0 +1,1 @@
+All'aumentare del numero di nuclei integrati sul medesimo cristallo di silicio, il bus condiviso diviene un collo di bottiglia per la contesa d'accesso. Le reti su chip a griglia bidimensionale o ad anello instradano i pacchetti tra i nodi garantendo larghezza di banda scalabile.

@@ -1,0 +1,1 @@
+Quando molteplici interrogazioni analitiche concorrenti accedono alle medesime tabelle di grandi dimensioni, il coordinatore puo unificare le letture sequenziali. La condivisione dei flussi di scansione e dei risultati intermedi riduce la contesa sul sottosistema di ingresso e uscita.

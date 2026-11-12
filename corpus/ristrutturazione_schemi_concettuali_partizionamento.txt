@@ -1,0 +1,1 @@
+Prima della traduzione nel modello logico, lo schema concettuale viene semplificato eliminando gli attributi multivalore e risolvendo le gerarchie di ereditarieta. La scelta tra accorpamento in un'unica tabella o suddivisione in tabelle separate dipende dalla frequenza delle operazioni previste.

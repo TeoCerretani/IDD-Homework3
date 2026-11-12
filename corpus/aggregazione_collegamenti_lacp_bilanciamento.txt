@@ -1,0 +1,1 @@
+L'unione logica di molteplici porte fisiche tra due apparati di commutazione incrementa la capacita complessiva e offre tolleranza al guasto del singolo cavo. La funzione di distribuzione assegna ciascuna conversazione a una porta specifica preservando l'ordine di consegna delle trame.

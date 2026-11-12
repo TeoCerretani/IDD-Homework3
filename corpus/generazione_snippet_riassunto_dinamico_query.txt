@@ -1,0 +1,1 @@
+La presentazione dei risultati di ricerca estrae dal testo originale brevi frammenti contigui che massimizzano la densita dei termini cercati dall'utente. L'evidenziazione grafica delle corrispondenze facilita la valutazione rapida della pertinenza prima dell'apertura.

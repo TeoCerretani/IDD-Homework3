@@ -1,0 +1,1 @@
+I modelli sparsi appresi espandono i termini del testo proiettandoli sullo spazio del vocabolario mediante pesi continui regolarizzati per la sparsita. I vettori risultanti possono essere memorizzati direttamente in un indice tradizionale sfruttando gli algoritmi di potatura classici.

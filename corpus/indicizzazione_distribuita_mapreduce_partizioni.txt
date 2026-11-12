@@ -1,0 +1,1 @@
+La generazione dell'indice su cluster di calcolatori assegna ai nodi lavoratore di mappatura l'analisi lessicale dei testi e l'emissione delle coppie termine-postings. I nodi riduttori raggruppano e ordinano le liste associate a ciascuna partizione del vocabolario.

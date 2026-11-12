@@ -1,0 +1,1 @@
+Le chiavi esterne preservano la coerenza dei riferimenti incrociati tra tabelle distinte impedendo l'inserimento di valori orfani. Le politiche di reazione in cascata o di annullamento governano il comportamento del gestore in seguito alla rimozione della tupla referenziata.

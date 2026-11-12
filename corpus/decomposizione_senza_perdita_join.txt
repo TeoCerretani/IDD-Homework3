@@ -1,0 +1,1 @@
+La scomposizione di uno schema relazionale in proiezioni piu piccole deve preservare il contenuto informativo originario evitando la generazione di tuple spurie durante la ricomposizione. Inoltre la conservazione delle dipendenze consente di verificare i vincoli di integrita senza eseguire giunzioni costose.

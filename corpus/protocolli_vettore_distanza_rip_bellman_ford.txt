@@ -1,0 +1,1 @@
+Negli algoritmi a vettore di distanza ogni nodo comunica periodicamente ai soli vicini diretti la propria stima del costo verso tutte le destinazioni note. Tecniche di orizzonte diviso prevengono la formazione di cicli di conteggio all'infinito.

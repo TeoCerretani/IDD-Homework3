@@ -1,0 +1,1 @@
+La probabilita che un utente selezioni un risultato dipende fortemente dalla sua posizione visiva nella pagina oltre che dalla sua effettiva pertinenza. I modelli a cascata stimano separatamente la probabilita di esame della riga e la rilevanza intrinseca del testo.

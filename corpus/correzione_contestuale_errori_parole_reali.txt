@@ -1,0 +1,1 @@
+Quando un errore di digitazione produce una parola valida ma semanticamente fuori contesto, il controllo su singolo vocabolo non rileva l'anomalia. I modelli di linguaggio a n-grammi valutano la probabilita congiunta della sequenza proponendo sostituzioni coerenti con le parole adiacenti.

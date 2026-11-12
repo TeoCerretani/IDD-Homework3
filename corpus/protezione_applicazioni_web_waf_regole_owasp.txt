@@ -1,0 +1,1 @@
+Uno schermo applicativo posto davanti ai servitori HTTP analizza il contenuto semantico dei parametri e dei corpi delle richieste bloccando i tentativi di attraversamento delle cartelle e di esecuzione remota di comandi.

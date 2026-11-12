@@ -1,0 +1,1 @@
+La variazione massima di velocita raggiungibile da un veicolo a reazione dipende linearmente dalla velocita efficace di efflusso dei gas di scarico e dal logaritmo naturale del rapporto tra massa iniziale e massa finale a secco.

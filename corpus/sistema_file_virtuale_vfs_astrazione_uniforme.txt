@@ -1,0 +1,1 @@
+Lo strato di astrazione VFS espone alle applicazioni un'interfaccia uniforme basata su superblocco, inode, dentry e descrittore aperto indipendentemente dal formato fisico sottostante. In tal modo partizioni locali, dischi rimovibili e condivisioni di rete vengono montati in un unico albero.

@@ -1,0 +1,1 @@
+La proiezione non lineare di insiemi ad alta dimensionalita sul piano bidimensionale preserva le relazioni di vicinato locale convertendo le distanze euclidee in probabilita di affinita. L'impiego della distribuzione t di Student nello spazio ridotto evita l'affollamento centrale dei punti.

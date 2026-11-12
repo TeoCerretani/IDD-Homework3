@@ -1,0 +1,1 @@
+Nei sistemi dinamici lineari soggetti a rumore gaussiano di processo e di misura, lo stimatore ricorsivo alterna una fase di predizione basata sulle equazioni del moto e una fase di correzione pesata dal guadagno ottimo.

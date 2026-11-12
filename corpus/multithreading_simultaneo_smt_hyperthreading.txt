@@ -1,0 +1,1 @@
+Un singolo nucleo superscalare provvisto di molteplici insiemi di registri architetturali puo prelevare ed emettere nello stesso ciclo di orologio istruzioni appartenenti a thread distinti. Tale condivisione riempie gli slot funzionali lasciati inutilizzati dalle latenze di accesso.

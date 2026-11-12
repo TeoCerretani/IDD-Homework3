@@ -1,0 +1,1 @@
+La trasmissione efficiente da una sorgente verso un gruppo di ricevitori evita la duplicazione dei flussi lungo i rami condivisi replicando i pacchetti solo nei punti di biforcazione dell'albero di distribuzione.

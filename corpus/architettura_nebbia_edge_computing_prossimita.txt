@@ -1,0 +1,2 @@
+La collocazione di risorse di calcolo, memorizzazione temporanea e filtraggio direttamente presso le stazioni radio base o i concentratori industriali periferici riduce drasticamente la latenza di reazione per le applicazioni critiche di controllo automatico.
+Questa decentralizzazione comprime inoltre il volume grezzo di dati inviati verso i centri di elaborazione remoti attraverso i collegamenti geografici a banda limitata, preservando la continuita operativa locale anche durante interruzioni temporanee della dorsale principale.

@@ -1,0 +1,1 @@
+Per evitare il costo di inizializzazione ripetuta e la frammentazione interna delle strutture di controllo frequentemente create e distrutte, l'allocatore a lastre mantiene riserve di oggetti pre-costruiti della medesima classe.

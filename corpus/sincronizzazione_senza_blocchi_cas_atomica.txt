@@ -1,0 +1,1 @@
+Le strutture concorrenti lock-free evitano la sospensione dei thread utilizzando istruzioni atomiche hardware del tipo Compare-And-Swap all'interno di cicli di tentativo. Questo approccio elimina il rischio di stallo reciproco e riduce la latenza sotto contesa moderata.

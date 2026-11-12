@@ -1,0 +1,1 @@
+Il paradigma Evento-Condizione-Azione conferisce reattivita al gestore relazionale eseguendo automaticamente procedure al verificarsi di inserimenti, cancellazioni o modifiche. L'analisi statica delle regole previene cicli infiniti di attivazione reciproca e garantisce la terminazione.

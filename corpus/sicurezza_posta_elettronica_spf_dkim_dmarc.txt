@@ -1,0 +1,1 @@
+La prevenzione della falsificazione del mittente nei messaggi di posta combina l'elenco autorizzato degli indirizzi di invio pubblicati nel dominio con la firma crittografica delle intestazioni. La politica dichiarata istruisce il ricevitore sul trattamento dei messaggi non conformi.

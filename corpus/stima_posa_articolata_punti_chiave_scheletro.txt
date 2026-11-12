@@ -1,0 +1,1 @@
+La localizzazione spaziale delle articolazioni corporee nelle riprese video combina mappe di calore di confidenza con campi vettoriali di affinita tra gli arti. Questo tracciamento non invasivo abilita l'analisi biomeccanica del movimento e l'interazione naturale.

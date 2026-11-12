@@ -1,0 +1,1 @@
+La rappresentazione piana della superficie ellissoidica terrestre introduce inevitabili deformazioni lineari, angolari o areali. La proiezione universale trasversa di Mercatore conserva gli angoli locali risultando ottimale per la navigazione e la topografia.

@@ -1,0 +1,1 @@
+Una volta partizionata una collezione in gruppi coerenti, la generazione di etichette comprensibili all'utente seleziona i termini centroidi ad alta frequenza interna e bassa frequenza esterna. Questo riassunto sintetico agevola la navigazione esplorativa dei risultati.

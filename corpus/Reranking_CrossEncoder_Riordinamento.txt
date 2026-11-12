@@ -1,0 +1,1 @@
+Nei sistemi di recupero a due stadi un primo indice lessicale veloce seleziona un insieme ristretto di candidati promettenti. Successivamente una rete trasformatrice pesante valuta congiuntamente la coppia domanda-passaggio producendo l'ordinamento definitivo.

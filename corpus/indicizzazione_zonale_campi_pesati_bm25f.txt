@@ -1,0 +1,1 @@
+La distinzione strutturale tra titolo, sommario, intestazioni e corpo principale permette di attribuire pesi differenziati alle occorrenze in base alla zona di appartenenza. L'estensione BM25F combina in modo non lineare le frequenze normalizzate dei diversi campi prima di applicare la saturazione.

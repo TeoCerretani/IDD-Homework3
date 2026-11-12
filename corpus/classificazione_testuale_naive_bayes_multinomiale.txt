@@ -1,0 +1,1 @@
+L'assegnazione automatica di categorie tematiche stima la probabilita a posteriori di ciascuna classe moltiplicando le probabilita condizionate delle parole osservate. La regolarizzazione additiva di Laplace evita che un vocabolo mai incontrato in addestramento azzeri l'intera produttoria.

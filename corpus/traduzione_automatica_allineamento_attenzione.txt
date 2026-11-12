@@ -1,0 +1,1 @@
+I sistemi di traduzione sequenza-a-sequenza generano la frase nella lingua di arrivo consultando dinamicamente tutte le posizioni della frase sorgente ad ogni passo di decodifica. La codifica in sottoparole mediante Byte-Pair Encoding risolve il problema dei vocaboli rari o sconosciuti.

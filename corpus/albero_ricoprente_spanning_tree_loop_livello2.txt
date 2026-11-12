@@ -1,0 +1,1 @@
+La presenza di collegamenti ridondanti tra commutatori di livello due garantisce la continuita operativa ma introduce il rischio di tempeste di trame broadcast circolari. Il protocollo di albero ricoprente disattiva logicamente i rami superflui riaprendoli solo in caso di guasto del percorso attivo.

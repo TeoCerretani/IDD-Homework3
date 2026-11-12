@@ -1,0 +1,1 @@
+L'adattamento sequenziale a nuovi flussi di compiti tende a sovrascrivere i pesi essenziali per le abilita acquisite in precedenza. Il consolidamento elastico dei pesi penalizza la modifica dei parametri aventi elevata informazione di Fisher rispetto ai compiti passati.

@@ -1,0 +1,1 @@
+Il principio di separazione tra comandi di modifica e interrogazioni di lettura disaccoppia il modello transazionale normalizzato dalle viste denormalizzate ottimizzate per la consultazione. La sincronizzazione asincrona mediante eventi di dominio consente di scalare indipendentemente i due carichi.

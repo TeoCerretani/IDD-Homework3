@@ -1,0 +1,1 @@
+La classificazione strutturale dei calcolatori distingue gli elaboratori in base alla molteplicita dei flussi di istruzioni e dei flussi operandi trattati simultaneamente. I moderni processori multicore combinano il parallelismo a livello di thread con unita vettoriali interne.

@@ -1,0 +1,1 @@
+Il buffer associativo di traduzione conserva le corrispondenze recenti tra numeri di pagina virtuale e cornici fisiche evitando di consultare ad ogni riferimento la tabella delle pagine. In caso di mancata corrispondenza, un'unita dedicata esplora gerarchicamente gli alberi di traduzione.

@@ -1,0 +1,1 @@
+L'estensione Block-Max WAND conserva i massimi locali di punteggio per ciascun blocco compresso di centoventiotto elementi anziche un unico limite superiore globale. Questa granularita fine consente di scartare intere porzioni delle liste senza decomprimerle.

@@ -1,0 +1,1 @@
+La potenza dinamica dissipata da un circuito integrato CMOS cresce proporzionalmente alla capacita di carico, alla frequenza di commutazione e al quadrato della tensione di alimentazione. I sensori termici integrati modulano frequenza e tensione per prevenire il surriscaldamento del silicio.

@@ -1,0 +1,1 @@
+Nei gestori di archiviazione basati su copia in scrittura i blocchi modificati non vengono mai sovrascritti sul posto ma allocati in nuove posizioni aggiornando ricorsivamente i puntatori dell'albero. Ciò garantisce la consistenza transazionale e consente la creazione istantanea di snapshot.

@@ -1,0 +1,1 @@
+L'algoritmo Hyperlink-Induced Topic Search distingue sul grafo ipertestuale le pagine autorevoli che contengono informazioni primarie dalle pagine hub che raccolgono rassegne di collegamenti qualificati. Un'iterazione mutuamente ricorsiva aggiorna i due punteggi fino alla convergenza.

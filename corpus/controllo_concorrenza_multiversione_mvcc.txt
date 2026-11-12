@@ -1,0 +1,1 @@
+Il meccanismo multiversione mantiene istantanee storiche delle tuple modificate per consentire alle interrogazioni di sola lettura di procedere senza bloccare gli scrittori. La pulizia periodica rimuove le versioni obsolete non piu visibili ad alcuna transazione attiva.

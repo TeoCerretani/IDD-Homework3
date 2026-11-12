@@ -1,0 +1,1 @@
+Le modalita di calcolo dell'indirizzo effettivo consentono di accedere a costanti incorporate nell'istruzione, variabili locali sullo stack mediante spiazzamento rispetto al puntatore di base ed elementi di vettori tramite registri indice scalati.

@@ -1,0 +1,1 @@
+Il framework Divergence From Randomness stima il peso informativo di un termine misurando quanto la sua frequenza osservata in un testo si discosti da una distribuzione casuale di Poisson. La normalizzazione successiva riduce il guadagno marginale delle ripetizioni successive.

@@ -1,0 +1,1 @@
+L'adozione dell'unita lineare rettificata e delle sue varianti lisce attenua il fenomeno della scomparsa del gradiente che affliggeva le sigmoidal tradizionali. La linearita sul semiasse positivo accelera notevolmente la convergenza durante l'ottimizzazione stocastica.

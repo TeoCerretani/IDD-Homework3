@@ -1,0 +1,1 @@
+Una rete compatta viene addestrata a imitare le distribuzioni di probabilita morbide prodotte da un sistema di grandi dimensioni ad alte prestazioni. Le probabilita sulle classi secondarie trasferiscono informazioni preziose sulle somiglianze strutturali tra le categorie.

@@ -1,0 +1,1 @@
+Molteplici organizzazioni autonome possono calcolare congiuntamente una funzione statistica aggregata sui rispettivi archivi riservati senza che nessuna parte apprenda gli ingressi individuali delle altre.

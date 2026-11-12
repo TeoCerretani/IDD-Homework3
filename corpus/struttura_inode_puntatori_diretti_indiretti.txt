@@ -1,0 +1,1 @@
+La rappresentazione su disco dei metadati di un archivio separa il nome simbolico dal descrittore numerico che registra permessi, tempi di modifica e indirizzi dei blocchi. La combinazione di puntatori diretti e indiretti multipli supporta efficientemente sia piccoli file sia grandi archivi.

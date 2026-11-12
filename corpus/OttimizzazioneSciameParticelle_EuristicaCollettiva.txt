@@ -1,0 +1,1 @@
+Gli algoritmi ispirati al comportamento collettivo aggiornano la posizione di ciascuna soluzione candidata combinando l'inerzia individuale con l'attrazione verso il miglior punto trovato dal singolo e dall'intero sciame.

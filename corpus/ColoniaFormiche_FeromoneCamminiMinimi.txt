@@ -1,0 +1,1 @@
+L'ottimizzazione combinatoria su grafi deposita tracce virtuali di feromone lungo gli archi appartenenti alle soluzioni di costo inferiore costruite dagli agenti esploratori. L'evaporazione progressiva evita la convergenza prematura verso soluzioni subottime.

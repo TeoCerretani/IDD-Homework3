@@ -1,0 +1,1 @@
+L'individuazione automatica dei sintagmi nominali specialistici combina criteri linguistici sulle parti del discorso con misure statistiche di annidamento lessicale. I termini complessi estratti arricchiscono i dizionari di dominio e i suggeritori di ricerca.

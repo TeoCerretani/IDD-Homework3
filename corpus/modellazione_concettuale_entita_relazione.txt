@@ -1,0 +1,1 @@
+Lo schema Entita-Relazione cattura la semantica applicativa mediante entita, associazioni, cardinalita minime e massime, identificatori e gerarchie di generalizzazione. La successiva traduzione logica trasforma i costrutti concettuali in tabelle relazionali preservando i vincoli progettuali.

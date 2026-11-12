@@ -1,0 +1,1 @@
+I server di rete ad altissima concorrenza gestiscono decine di migliaia di connessioni simultanee con un numero ridotto di thread mediante descrittori non bloccanti e notifiche basate sugli eventi di prontezza.

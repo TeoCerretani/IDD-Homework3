@@ -1,0 +1,1 @@
+La decomposizione ai valori singolari della matrice termine-documento proietta il vocabolario in uno spazio concettuale a bassa dimensionalita. Termini che co-occorrono in contesti simili vengono avvicinati geometricamente attenuando i limiti della sinonimia.

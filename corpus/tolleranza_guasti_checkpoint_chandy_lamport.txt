@@ -1,0 +1,1 @@
+I motori di elaborazione distribuita su flussi garantiscono la semantica di elaborazione esattamente singola acquisendo istantanee globali consistenti mediante marcatori iniettati nei canali. In caso di caduta di un nodo lavoratore, il calcolo riparte dall'ultimo stato globale salvato.

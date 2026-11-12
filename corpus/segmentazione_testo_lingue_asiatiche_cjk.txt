@@ -1,0 +1,1 @@
+Nelle scritture prive di spazi separatori tra le parole, la suddivisione lessicale richiede dizionari statistici o l'estrazione di bigrammi di caratteri sovrapposti. L'analisi basata su modelli probabilistici individua la sequenza di segmentazione a massima verosimiglianza.

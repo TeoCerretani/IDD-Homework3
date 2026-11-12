@@ -1,0 +1,1 @@
+Uno schema relazionale soddisfa la forma normale di Boyce-Codd quando il determinante di ogni dipendenza funzionale non banale costituisce una superchiave della relazione. Qualora tale condizione non sia raggiungibile preservando tutte le dipendenze, si ricorre alla terza forma normale.

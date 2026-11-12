@@ -1,0 +1,1 @@
+L'interazione tra agenti autonomi dotati di utilita individuali viene analizzata attraverso i concetti di equilibrio di Nash e di ottimo paretiano. I protocolli di negoziazione e le aste a secondo prezzo incentivano la dichiarazione veritiera delle valutazioni private.

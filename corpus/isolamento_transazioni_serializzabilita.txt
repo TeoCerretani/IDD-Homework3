@@ -1,0 +1,1 @@
+Il controllo della concorrenza nei gestori transazionali previene letture sporche, letture non ripetibili e anomalie fantasma mediante blocchi a due fasi o validazione ottimistica. La serializzabilita dei piani di esecuzione assicura che l'esecuzione intrecciata produca lo stesso stato finale di una sequenza seriale.

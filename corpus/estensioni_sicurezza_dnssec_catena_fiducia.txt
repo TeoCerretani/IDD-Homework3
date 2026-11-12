@@ -1,0 +1,1 @@
+Per impedire l'avvelenamento della cache dei risolutori e il dirottamento verso siti contraffatti, ogni zona del sistema dei nomi autentica i propri record di risorsa mediante firme digitali verificate lungo una catena di fiducia fino alla radice.

@@ -1,0 +1,1 @@
+Il superamento della vulnerabilita intrinseca delle parole d'ordine statiche combina un segreto conosciuto dall'utente con il possesso di un generatore crittografico hardware o di un codificatore temporale sincronizzato.

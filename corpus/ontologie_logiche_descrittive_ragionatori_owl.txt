@@ -1,0 +1,1 @@
+Le logiche descrittive formalizzano la terminologia di un dominio attraverso concetti, ruoli e restrizioni di cardinalita dotati di semantica insiemistica rigorosa. I dimostratori automatici verificano la consistenza della base di conoscenza e deducono la tassonomia implicita.

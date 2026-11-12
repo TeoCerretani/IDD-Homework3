@@ -1,0 +1,1 @@
+La replica dei contenuti statici e dei flussi multimediali su servitori periferici collocati presso i punti di interscambio degli operatori avvicina le risorse agli utenti finali. L'instradamento anycast dirige automaticamente la richiesta verso il nodo geograficamente o topologicamente piu prossimo.

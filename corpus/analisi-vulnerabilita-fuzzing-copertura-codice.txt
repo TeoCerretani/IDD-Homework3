@@ -1,0 +1,1 @@
+Il collaudo automatico mediante iniezione di ingressi mutati casualmente e guidato dal tracciamento dei rami eseguiti scopre efficacemente errori di corruzione della memoria e condizioni non gestite nei decodificatori di protocollo.

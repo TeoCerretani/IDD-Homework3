@@ -1,0 +1,1 @@
+La generalizzazione impilata addestra un combinatore di secondo livello sulle predizioni fuori campione generate da una famiglia eterogenea di predittori base. La diversita degli errori commessi dai singoli componenti riduce la varianza complessiva della previsione finale.

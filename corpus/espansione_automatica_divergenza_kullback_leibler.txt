@@ -1,0 +1,1 @@
+Nei modelli di rilevanza basati su distribuzioni di probabilita, i termini candidati per l'espansione dell'interrogazione vengono selezionati massimizzando la divergenza rispetto alla distribuzione di fondo della collezione. I vocaboli specifici dei primi risultati ricevono il peso maggiore.

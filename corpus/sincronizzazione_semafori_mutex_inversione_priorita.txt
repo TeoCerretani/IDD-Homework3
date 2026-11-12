@@ -1,0 +1,1 @@
+Quando un compito ad alta priorita attende il rilascio di un lucchetto detenuto da un compito a bassa priorita interrotto da attivita di priorita intermedia, si verifica un'inversione anomala. Il protocollo di ereditarieta della priorita innalza temporaneamente il detentore della risorsa.

@@ -1,0 +1,1 @@
+Quando un'interrogazione risulta ambigua o ammette molteplici interpretazioni, il criterio Maximal Marginal Relevance penalizza i candidati troppo simili a quelli gia selezionati in testa alla graduatoria. In tal modo le prime posizioni coprono le diverse sfaccettature del tema.

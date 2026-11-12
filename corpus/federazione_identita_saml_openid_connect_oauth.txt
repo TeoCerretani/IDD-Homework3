@@ -1,0 +1,1 @@
+La delega dell'autenticazione e dell'autorizzazione tra domini amministrativi distinti consente all'utente di accedere a molteplici applicazioni mediante un'unica credenziale centrale. Il rilascio di gettoni firmati digitalmente attesta l'identita e gli ambiti di permesso concessi.

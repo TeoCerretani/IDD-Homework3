@@ -1,0 +1,1 @@
+La strategia Document-at-a-Time avanza simultaneamente lungo tutte le liste di occorrenza della query calcolando il punteggio complessivo di un candidato prima di passare al successivo. Questo schema richiede una quantita minima di memoria ausiliaria limitata alla coda di priorita dei migliori risultati.

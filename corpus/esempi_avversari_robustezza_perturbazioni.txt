@@ -1,0 +1,1 @@
+L'aggiunta di perturbazioni impercettibili calcolate lungo la direzione del segno del gradiente della perdita puo indurre classificatori ad alta accuratezza in errori sistematici. L'addestramento avversario incorpora tali esempi sintetici nel ciclo di ottimizzazione per irrobustire i confini decisionali.

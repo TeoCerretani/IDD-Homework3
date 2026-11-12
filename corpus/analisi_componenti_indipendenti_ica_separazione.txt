@@ -1,0 +1,1 @@
+A differenza della decorrelazione ortogonale, la separazione cieca delle sorgenti cerca proiezioni statisticamente indipendenti massimizzando la non-gaussianita dei segnali estratti. Questa tecnica risolve il problema del cocktail party isolando le singole voci da registrazioni miste.

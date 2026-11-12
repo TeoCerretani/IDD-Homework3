@@ -1,0 +1,1 @@
+L'inserimento di valori sentinella casuali prima dell'indirizzo di ritorno sullo stack intercetta i tentativi di sovrascrittura lineare dei buffer locali. L'attivazione del bit di non eseguibilita sulle pagine di lavoro impedisce inoltre l'esecuzione diretta di sequenze iniettate.

@@ -1,0 +1,1 @@
+Poiche la maggior parte degli oggetti allocati dinamicamente nei linguaggi gestiti possiede un ciclo di vita estremamente breve, la suddivisione dello spazio heap in generazioni separa i nuovi oggetti da quelli longevi. Le scansioni frequenti si concentrano sulla sola regione giovane.

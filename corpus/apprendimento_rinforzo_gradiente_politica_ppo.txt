@@ -1,0 +1,1 @@
+I metodi Actor-Critic ottimizzano direttamente la politica stocastica di selezione delle azioni utilizzando uno stimatore della funzione valore per ridurre la varianza del gradiente. Il vincolo di prossimita impedisce aggiornamenti eccessivi che destabilizzerebbero il comportamento dell'agente.

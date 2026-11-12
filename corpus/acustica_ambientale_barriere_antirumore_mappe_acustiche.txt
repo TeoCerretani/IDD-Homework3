@@ -1,0 +1,1 @@
+La modellazione della propagazione sonora in ambito urbano valuta l'attenuazione per divergenza geometrica, assorbimento atmosferico e diffrazione sugli ostacoli al fine di dimensionare le schermature lungo le arterie di trasporto.

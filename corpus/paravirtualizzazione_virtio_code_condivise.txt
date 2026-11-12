@@ -1,0 +1,1 @@
+Per eliminare il sovraccarico dovuto all'emulazione software di periferiche storiche, i driver paravirtualizzati collaborano esplicitamente con l'ipervisore scambiando descrittori di buffer attraverso anelli di memoria condivisa.

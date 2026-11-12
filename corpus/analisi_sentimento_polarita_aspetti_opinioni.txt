@@ -1,0 +1,1 @@
+L'estrazione fine delle opinioni non si limita a classificare la polarita globale di una recensione ma identifica il giudizio specifico espresso verso ciascun attributo del prodotto. L'analisi sintattica delle dipendenze collega gli aggettivi valutativi ai rispettivi sostantivi.

@@ -1,0 +1,1 @@
+La consegna di un datagramma all'interno di una sottorete locale richiede di determinare l'indirizzo fisico della scheda di destinazione a partire dal suo indirizzo logico. La richiesta diffusa in broadcast aggiorna le tabelle di corrispondenza temporanea dei nodi adiacenti.

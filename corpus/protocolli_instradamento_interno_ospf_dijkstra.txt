@@ -1,0 +1,1 @@
+I protocolli a stato del collegamento diffondono a tutti i nodi dell'area la mappa completa della topologia e dei costi delle interfacce. Ciascun router costruisce autonomamente l'albero dei cammini minimi mediante l'algoritmo di Dijkstra.

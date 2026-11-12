@@ -1,0 +1,1 @@
+Il valutatore dei piani di esecuzione utilizza istogrammi a larghezza uguale o a profondita uguale per approssimare la distribuzione statistica dei valori negli attributi. Queste stime guidano la scelta dell'ordine ottimale di giunzione mediante programmazione dinamica.

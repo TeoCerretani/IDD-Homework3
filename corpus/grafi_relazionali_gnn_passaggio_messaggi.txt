@@ -1,0 +1,1 @@
+Le reti operanti su domini relazionali aggiornano iterativamente lo stato di ciascun nodo aggregando mediante funzioni invarianti alle permutazioni le caratteristiche dei vicini. Tale schema cattura sia la topologia locale sia gli attributi associati ai vertici.

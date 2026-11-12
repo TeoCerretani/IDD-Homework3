@@ -1,0 +1,1 @@
+La tecnica di Change Data Capture intercetta in tempo reale le modifiche applicate alle tabelle operazionali leggendo direttamente il flusso del registro transazionale. Questo approccio propaga gli aggiornamenti verso i depositi analitici senza imporre sovraccarico di interrogazione sulle sorgenti.

@@ -1,0 +1,1 @@
+La cardinalita del dizionario dei termini distinti cresce in modo sublineare rispetto al numero complessivo di token esaminati secondo una funzione di potenza. Questa relazione empirica permette di dimensionare preventivamente le strutture in memoria dedicate al lessico.

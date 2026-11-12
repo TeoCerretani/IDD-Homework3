@@ -1,0 +1,1 @@
+I modelli neurali di recupero denso codificano separatamente le interrogazioni e i passaggi testuali in vettori continui a bassa dimensionalita. La ricerca dei vicini piu prossimi approssimati mediante grafi navigabili consente il recupero semantico su larga scala.

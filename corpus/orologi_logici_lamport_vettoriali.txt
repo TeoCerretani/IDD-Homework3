@@ -1,0 +1,1 @@
+In assenza di un riferimento temporale fisico perfettamente sincronizzato tra elaboratori remoti, la relazione di precedenza causale tra eventi viene tracciata mediante contatori monotoni. Gli orologi vettoriali permettono inoltre di distinguere gli eventi causalmente dipendenti da quelli concorrenti.

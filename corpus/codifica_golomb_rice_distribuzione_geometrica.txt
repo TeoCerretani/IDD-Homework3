@@ -1,0 +1,1 @@
+Quando le distanze tra occorrenze successive di un termine seguono una distribuzione geometrica stazionaria, i codici parametrici di Golomb raggiungono l'ottimalita entropica. La variante di Rice vincola il divisore a una potenza di due sostituendo le divisioni intere con rapidi scorrimenti di bit.

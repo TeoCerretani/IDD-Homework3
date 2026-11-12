@@ -1,0 +1,1 @@
+La conservazione storica del patrimonio digitale registra le risposte HTTP complete all'interno di contenitori standardizzati corredati da timbri temporali. L'indicizzazione temporale consente di ricostruire lo stato di un sito in una specifica data passata.

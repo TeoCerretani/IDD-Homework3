@@ -1,0 +1,1 @@
+Il collegatore combina i moduli oggetto prodotti separatamente dal compilatore risolvendo i riferimenti simbolici incrociati e assegnando gli indirizzi virtuali finali alle sezioni di testo e variabili statiche.

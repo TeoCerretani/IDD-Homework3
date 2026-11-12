@@ -1,0 +1,1 @@
+Il blocco critico circolare si manifesta esclusivamente quando sussistono simultaneamente mutua esclusione, possesso e attesa, assenza di prelazione e attesa circolare. L'ordinamento totale sull'acquisizione delle risorse previene strutturalmente la formazione di cicli.

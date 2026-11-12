@@ -1,0 +1,1 @@
+La politica della medesima origine impedisce a uno script caricato da un sito terzo di leggere le risposte o lo stato di sessione appartenenti a un dominio differente. Le intestazioni di condivisione incrociata autorizzano selettivamente le eccezioni consentite.

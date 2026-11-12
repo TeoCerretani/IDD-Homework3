@@ -1,0 +1,1 @@
+Il protocollo Non-Volatile Memory Express sfrutta il parallelismo interno delle memorie flash a stato solido esponendo decine di migliaia di code circolari di invio e completamento mappate direttamente nello spazio dei nuclei.

@@ -1,0 +1,1 @@
+L'instaurazione, la modifica e la chiusura di comunicazioni vocali e video su pacchetto avvengono mediante messaggi testuali di invito che negoziano i codificatori supportati. Il flusso vocale compresso viaggia poi separatamente su trasporto in tempo reale.

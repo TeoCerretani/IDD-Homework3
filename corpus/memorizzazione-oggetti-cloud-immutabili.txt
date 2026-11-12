@@ -1,0 +1,1 @@
+I servizi di archiviazione a oggetti su scala geografica organizzano i contenuti in contenitori piatti accessibili tramite interfacce applicative HTTP. La ridondanza tramite codici di cancellazione distribuisce i frammenti su piu zone di disponibilita garantendo durabilita estrema.

@@ -1,0 +1,1 @@
+L'inserimento di controlli automatici di completezza, unicita e conformita distributiva all'interno delle tubature di ingestione intercetta tempestivamente le anomalie. I record difettosi vengono deviati in code di quarantena evitando di inquinare le tabelle certificate a valle.

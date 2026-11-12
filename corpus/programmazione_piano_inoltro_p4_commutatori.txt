@@ -1,0 +1,1 @@
+I linguaggi specifici di dominio per il piano di inoltro permettono di definire direttamente nel silicio del commutatore l'analisi di nuove intestazioni di protocollo e le tabelle di corrispondenza-azione.

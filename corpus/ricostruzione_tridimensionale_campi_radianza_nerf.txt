@@ -1,0 +1,1 @@
+La sintesi di nuove viste fotografiche a partire da un insieme sparso di immagini calibrate rappresenta la scena continua come una funzione volumetrica di densita e colore dipendente dalla direzione di osservazione. L'integrazione lungo i raggi ottici genera rese fotorealistiche.

@@ -1,0 +1,1 @@
+Per sfuggire agli ottimi locali durante l'esplorazione del vicinato, la metaeuristica proibisce temporaneamente di invertire le mosse eseguite negli ultimi passi. Criteri di aspirazione revocano il divieto qualora una mossa conduca a una soluzione migliore di tutte quelle note.

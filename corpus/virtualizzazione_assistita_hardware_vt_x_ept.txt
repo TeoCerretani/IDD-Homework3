@@ -1,0 +1,1 @@
+Le estensioni di virtualizzazione del processore introducono una modalita operativa dedicata per il gestore delle macchine virtuali consentendo l'esecuzione diretta delle istruzioni privilegiate dell'ospite. Le tabelle di paginazione estese traducono in hardware gli indirizzi fisici dell'ospite.

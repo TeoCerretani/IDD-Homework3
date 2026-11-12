@@ -1,0 +1,1 @@
+L'inoltro multiprotocollo basato su etichette antepone ai pacchetti un breve identificativo di lunghezza fissa che determina il cammino predefinito attraverso la dorsale dell'operatore. Ciò consente di riservare larghezza di banda e deviare istantaneamente i flussi in caso di rottura di un collegamento.

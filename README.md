@@ -8,7 +8,7 @@
 
 ## Descrizione del Progetto
 
-Il progetto implementa e valuta sperimentalmente un sistema di Information Retrieval in **Java 20** basato su **Apache Lucene 9.12.0** per l'indicizzazione e l'interrogazione full-text da console di una collezione strutturata di **200 file testuali (`.txt`)** in lingua italiana (`corpus/`, 63.781 byte complessivi), articolata in **8 domini tematici bilanciati da 25 documenti ciascuno** con *ground truth* (*qrels*) nota per la valutazione di *Precision* ($P@10$), *Recall* ($R@10$ e $R_{\text{tot}}$), $F_1$-score, *Average Precision ($AP$)* e *Mean Average Precision ($MAP$)*.
+Il progetto implementa e valuta sperimentalmente un sistema di Information Retrieval in **Java 20** basato su **Apache Lucene 9.12.0** per l'indicizzazione e l'interrogazione full-text da console di una collezione strutturata su larga scala di **600 file testuali (`.txt`)** in lingua italiana (`corpus/`, 169.081 byte complessivi), articolata in **8 domini tematici bilanciati da 75 documenti ciascuno** con *ground truth* (*qrels*) nota per la valutazione di *Precision* ($P@10$), *Recall* ($R@10$ e $R_{\text{tot}}$), $F_1$-score, *Average Precision ($AP$)* e *Mean Average Precision ($MAP$)*.
 
 Ciascun file viene modellato come un'istanza di `Document` composta da due campi `TextField` distinti (a ciascuno dei quali corrisponde una *posting list* separata), gestiti mediante un `PerFieldAnalyzerWrapper` condiviso tra la fase di indicizzazione (`FileIndexer`) e la fase di ricerca (`ConsoleSearcher`):
 
@@ -25,7 +25,7 @@ Ciascun file viene modellato come un'istanza di `Document` composta da due campi
 
 ```text
 IDD-Homework3/
-├── corpus/                                      # Collezione di 200 documenti .txt (8 domini tematici da 25 file)
+├── corpus/                                      # Collezione di 600 documenti .txt (8 domini tematici da 75 file)
 ├── src/
 │   ├── main/java/it/uniroma3/idd/hw3/
 │   │   ├── FileIndexer.java                     # Modulo di indicizzazione dei file .txt (SimpleTextCodec)
@@ -46,7 +46,7 @@ IDD-Homework3/
 - **Build Tool:** Apache Maven 3.8+
 
 ### 1. Indicizzazione del Corpus (`FileIndexer`)
-Indicizza tutti i 200 file `.txt` presenti in `corpus/` generando l'indice invertito nella directory `index/`:
+Indicizza tutti i 600 file `.txt` presenti in `corpus/` generando l'indice invertito nella directory `index/`:
 
 ```bash
 mvn compile exec:java -Dexec.mainClass="it.uniroma3.idd.hw3.FileIndexer"
@@ -60,7 +60,7 @@ mvn exec:java -Dexec.mainClass="it.uniroma3.idd.hw3.ConsoleSearcher"
 ```
 
 ### 3. Esecuzione Automatica dei Test e dello Studio di Ablazione (`LuceneSearchTest`)
-Esegue la suite JUnit 5 che verifica l'indicizzazione dei 200 file, tutte le 12 query sperimentali, il benchmark dei tempi di indicizzazione (`DefaultCodec` vs `SimpleTextCodec` per $N \in \{25, 50, 100, 150, 200\}$) e lo studio di ablazione IR:
+Esegue la suite JUnit 5 che verifica l'indicizzazione dei 600 file, tutte le 12 query sperimentali, il benchmark dei tempi di indicizzazione (`DefaultCodec` vs `SimpleTextCodec` per $N \in \{50, 100, 200, 400, 600\}$) e lo studio di ablazione IR:
 
 ```bash
 mvn test
@@ -68,29 +68,29 @@ mvn test
 
 ---
 
-## Riepilogo delle 12 Query di Test e Metriche di Valutazione (su 200 Documenti)
+## Riepilogo delle 12 Query di Test e Metriche di Valutazione (su 600 Documenti)
 
 | # | Query da console | Query Lucene (`QueryParser`) | $\|R_q\|$ | $\|A@10\|$ | $\|A_{\text{tot}}\|$ | $P@10$ | $R@10$ | $R_{\text{tot}}$ | $F_1$ | $AP$ | Score BM25 (Top-1) |
 |:-:|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | `nome marte` | `nome:marte` | 4 | 3 | 3 | `1.000` | `0.750` | `0.750` | `0.857` | `0.750` | `2.0579` |
-| **2** | `nome "letteratura italiana"` | `nome:"letteratura italiana"` | 3 | 2 | 2 | `1.000` | `0.667` | `0.667` | `0.800` | `0.667` | `4.4576` |
-| **3** | `nome "basi di dati"` | `nome:"basi di dati"` | 3 | 2 | 2 | `1.000` | `0.667` | `0.667` | `0.800` | `0.667` | `5.2370` |
-| **4** | `nome neurali deep` | `nome:neurali nome:deep` | 3 | 3 | 3 | `1.000` | `1.000` | `1.000` | `1.000` | `1.000` | `4.0044` |
-| **5** | `contenuto "indice invertito"` | `contenuto:"indic invertit"` | 3 | 2 | 2 | `1.000` | `0.667` | `0.667` | `0.800` | `0.667` | `4.1779` |
-| **6** | `contenuto "sistema operativo"` | `contenuto:"sistem operativ"` | 4 | 3 | 3 | `1.000` | `0.750` | `0.750` | `0.857` | `0.750` | `2.8886` |
-| **7** | `contenuto crittografia` | `contenuto:crittograf` | 4 | 2 | 2 | `1.000` | `0.500` | `0.500` | `0.667` | `0.500` | `2.7159` |
-| **8** | `contenuto energie rinnovabili` | `contenuto:energ contenuto:rinnovabil` | 4 | 5 | 5 | `0.600` | `0.750` | `0.750` | `0.667` | `0.750` | `3.7280` |
-| **9** | `contenuto +apprendimento +modello` | `+contenuto:apprendiment +contenuto:modell` | 4 | 2 | 2 | `1.000` | `0.500` | `0.500` | `0.667` | `0.500` | `3.4562` |
-| **10** | `contenuto +architettura +memoria` | `+contenuto:architettur +contenuto:memor` | 4 | 2 | 2 | `1.000` | `0.500` | `0.500` | `0.667` | `0.500` | `2.9024` |
-| **11** | `contenuto architettura dati` | `contenuto:architettur contenuto:dati` | 8 | 10 | 15 | `0.600` | `0.750` | `0.875` | `0.667` | `0.658` | `2.6876` |
+| **1** | `nome marte` | `nome:marte` | 4 | 3 | 3 | `1.000` | `0.750` | `0.750` | `0.857` | `0.750` | `2.7752` |
+| **2** | `nome "letteratura italiana"` | `nome:"letteratura italiana"` | 3 | 2 | 2 | `1.000` | `0.667` | `0.667` | `0.800` | `0.667` | `5.7318` |
+| **3** | `nome "basi di dati"` | `nome:"basi di dati"` | 3 | 2 | 2 | `1.000` | `0.667` | `0.667` | `0.800` | `0.667` | `6.9975` |
+| **4** | `nome neurali deep` | `nome:neurali nome:deep` | 3 | 3 | 3 | `1.000` | `1.000` | `1.000` | `1.000` | `1.000` | `5.3775` |
+| **5** | `contenuto "indice invertito"` | `contenuto:"indic invertit"` | 3 | 2 | 2 | `1.000` | `0.667` | `0.667` | `0.800` | `0.667` | `4.2849` |
+| **6** | `contenuto "sistema operativo"` | `contenuto:"sistem operativ"` | 4 | 3 | 3 | `1.000` | `0.750` | `0.750` | `0.857` | `0.750` | `3.2274` |
+| **7** | `contenuto crittografia` | `contenuto:crittograf` | 4 | 2 | 2 | `1.000` | `0.500` | `0.500` | `0.667` | `0.500` | `3.2583` |
+| **8** | `contenuto energie rinnovabili` | `contenuto:energ contenuto:rinnovabil` | 4 | 5 | 5 | `0.600` | `0.750` | `0.750` | `0.667` | `0.750` | `4.5355` |
+| **9** | `contenuto +apprendimento +modello` | `+contenuto:apprendiment +contenuto:modell` | 4 | 2 | 2 | `1.000` | `0.500` | `0.500` | `0.667` | `0.500` | `3.7384` |
+| **10** | `contenuto +architettura +memoria` | `+contenuto:architettur +contenuto:memor` | 4 | 2 | 2 | `1.000` | `0.500` | `0.500` | `0.667` | `0.500` | `3.4007` |
+| **11** | `contenuto architettura dati` | `contenuto:architettur contenuto:dati` | 8 | 10 | 19 | `0.600` | `0.750` | `0.875` | `0.667` | `0.641` | `3.3291` |
 | **12** | `contenuto il dello nella` | *(vuota)* | 0 | 0 | 0 | — | — | — | — | — | — |
-| **Media** | **Macro-Average / MAP (Q1–Q11)** | — | **44** | **36** | **41** | **0.927** | **0.682** | **0.693** | **0.768** | **0.673** | — |
+| **Media** | **Macro-Average / MAP (Q1–Q11)** | — | **44** | **36** | **45** | **0.927** | **0.682** | **0.693** | **0.768** | **0.672** | — |
 
-### Sintesi dello Studio di Ablazione ($N = 200$ documenti)
+### Sintesi dello Studio di Ablazione ($N = 600$ documenti)
 
 | Configurazione Sperimentale | Analyzer (`nome` / `contenuto`) | `Similarity` | Macro-$P@10$ | Macro-$R@10$ | Macro-$R_{\text{tot}}$ | Macro-$F_1$ | $MAP$ |
 |:---|:---|:---|:---:|:---:|:---:|:---:|:---:|
-| **Config A (Proposta)** | `CustomAnalyzer` / `ItalianAnalyzer` | `BM25Similarity` | **0.927** | **0.682** | **0.693** | **0.768** | **0.673** |
-| **Config B (TF-IDF)** | `CustomAnalyzer` / `ItalianAnalyzer` | `ClassicSimilarity` | `0.927` | `0.682` | `0.693` | `0.768` | `0.672` |
-| **Config C (Standard)** | `StandardAnalyzer` (entrambi) | `BM25Similarity` | `0.697` | `0.394` | `0.394` | `0.488` | `0.391` |
-| **Config D (Whitespace)** | `WhitespaceAnalyzer` (entrambi) | `BM25Similarity` | `0.515` | `0.288` | `0.288` | `0.354` | `0.285` |
+| **Config A (Proposta)** | `CustomAnalyzer` / `ItalianAnalyzer` | `BM25Similarity` | **0.927** | **0.682** | **0.693** | **0.768** | **0.672** |
+| **Config B (TF-IDF)** | `CustomAnalyzer` / `ItalianAnalyzer` | `ClassicSimilarity` | `0.927` | `0.682` | `0.693` | `0.768` | `0.669` |
+| **Config C (Standard)** | `StandardAnalyzer` (entrambi) | `BM25Similarity` | `0.682` | `0.383` | `0.394` | `0.474` | `0.372` |
+| **Config D (Whitespace)** | `WhitespaceAnalyzer` (entrambi) | `BM25Similarity` | `0.500` | `0.277` | `0.288` | `0.341` | `0.266` |

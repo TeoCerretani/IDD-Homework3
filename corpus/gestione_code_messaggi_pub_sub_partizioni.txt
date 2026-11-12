@@ -1,0 +1,1 @@
+I broker di messaggistica distribuita disaccoppiano i produttori dai consumatori persistendo i flussi di record all'interno di argomenti suddivisi in partizioni ordinate. Ciascun gruppo di consumatori mantiene il proprio puntatore di avanzamento consentendo riletture storiche indipendenti.

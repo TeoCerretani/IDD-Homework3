@@ -1,0 +1,1 @@
+L'aggiunta di bit di ridondanza secondo il codice di Hamming esteso consente di correggere automaticamente l'inversione singola di un bit causata da raggi cosmici o disturbi elettrici e di rilevare gli errori doppi.

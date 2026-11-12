@@ -1,0 +1,1 @@
+Per accertare che la differenza di prestazioni medie tra due configurazioni sperimentali non sia dovuta a fluttuazioni casuali del campione di interrogazioni si applicano test d'ipotesi accoppiati. Il test t di Student e il test di permutazione di Fisher verificano la solidita del miglioramento.

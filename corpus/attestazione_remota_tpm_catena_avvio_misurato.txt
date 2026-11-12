@@ -1,0 +1,1 @@
+Il modulo di piattaforma fidata registra in registri protetti le impronte crittografiche di ciascuno stadio del firmware e del nucleo prima di cedere il controllo. La prova firmata consente a un verificatore remoto di accertare l'integrita del software in esecuzione.

@@ -1,0 +1,1 @@
+In un motore di ricerca distribuito l'indice puo essere suddiviso orizzontalmente assegnando a ciascun nodo un sottoinsieme disgiunto della collezione oppure un intervallo del vocabolario. Il partizionamento per documento offre maggiore tolleranza ai guasti e bilanciamento del carico.

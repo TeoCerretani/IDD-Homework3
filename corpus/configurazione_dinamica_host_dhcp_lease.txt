@@ -1,0 +1,1 @@
+L'assegnazione automatica dei parametri di connettivita ai terminali che si collegano a una rete locale avviene attraverso uno scambio di quattro messaggi di scoperta, offerta, richiesta e conferma. Il rinnovo periodico della concessione consente di riutilizzare gli indirizzi dei dispositivi disconnessi.

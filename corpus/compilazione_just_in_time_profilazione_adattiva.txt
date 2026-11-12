@@ -1,0 +1,1 @@
+Gli ambienti di esecuzione gestiti avviano il programma interpretando il bytecode e raccolgono statistiche sui metodi eseguiti piu frequentemente. Il compilatore dinamico traduce i punti caldi in codice macchina nativo applicando ottimizzazioni aggressive di inlining.

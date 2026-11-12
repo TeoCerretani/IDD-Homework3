@@ -1,0 +1,1 @@
+Il modello computazionale centrato sul vertice articola l'analisi di grandi grafi in superstep sincroni durante i quali ciascun nodo aggiorna il proprio stato e invia messaggi ai vicini. Questo approccio semplifica l'implementazione distribuita di cammini minimi e componenti connesse.

@@ -1,0 +1,1 @@
+La generazione di codice indipendente dalla posizione consente di mappare una singola copia fisica delle librerie dinamiche ad indirizzi virtuali casuali distinti in ciascun processo. La randomizzazione dello spazio degli indirizzi ostacola gli attacchi basati sul riutilizzo di codice.

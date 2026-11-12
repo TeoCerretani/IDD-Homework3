@@ -1,0 +1,1 @@
+La memorizzazione fisica del risultato precalcolato di un'interrogazione aggregata accelera notevolmente le elaborazioni analitiche ricorrenti. Per evitare il ricalcolo completo ad ogni modifica delle tabelle sorgente si adottano tecniche di propagazione incrementale delle variazioni.

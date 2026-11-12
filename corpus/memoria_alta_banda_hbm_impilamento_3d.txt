@@ -1,0 +1,1 @@
+L'impilamento verticale di strati di celle dinamiche collegati mediante attraversamenti nel silicio su un interpositore comune fornisce un'interfaccia larga migliaia di bit. Questa soluzione abbatte il collo di bottiglia di trasferimento negli acceleratori di calcolo scientifico.

@@ -1,0 +1,1 @@
+La generazione, la custodia e l'utilizzo delle chiavi radice di certificazione avvengono all'interno di involucri fisici resistenti alla manomissione che azzerano la memoria interna in caso di apertura forzata.

@@ -1,0 +1,1 @@
+La configurazione automatica dei parametri strutturali sostituisce l'esplorazione esaustiva su griglia con un processo gaussiano surrogato che stima la funzione obiettivo. La funzione di acquisizione bilancia l'esplorazione delle regioni incerte con lo sfruttamento dei minimi promettenti.

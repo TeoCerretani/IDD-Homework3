@@ -1,0 +1,1 @@
+La proiezione congiunta di descrizioni testuali e caratteristiche visive in uno spazio metrico condiviso consente di recuperare immagini mediante interrogazioni in linguaggio naturale. L'addestramento contrastivo avvicina le coppie corrispondenti allontanando gli esempi negativi.

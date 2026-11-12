@@ -1,0 +1,1 @@
+Nelle sessioni di ricerca multi-turno l'utente formula domande ellittiche che fanno riferimento implicito alle entita menzionate nei turni precedenti. La riscrittura contestuale espande i pronomi e i riferimenti anaforici prima dell'interrogazione dell'indice.

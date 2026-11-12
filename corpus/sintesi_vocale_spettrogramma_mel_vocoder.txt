@@ -1,0 +1,1 @@
+La conversione dal testo al parlato trasforma inizialmente la sequenza fonetica in uno spettrogramma acustico tempo-frequenza tenendo conto della prosodia e dell'intonazione. Un sintetizzatore d'onda successivo ricostruisce il segnale audio ad alta fedelta.

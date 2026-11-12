@@ -1,0 +1,1 @@
+Il campionamento di un segnale asincrono esterno in prossimita del fronte di salita dell'orologio viola i tempi di preparazione e mantenimento inducendo il bistabile in uno stato metastabile. L'impiego di catene di sincronizzatori a doppia battuta abbatte esponenzialmente la probabilita di guasto.

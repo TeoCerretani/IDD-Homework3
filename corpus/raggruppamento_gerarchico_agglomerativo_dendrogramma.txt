@@ -1,0 +1,1 @@
+Il clustering gerarchico fonde iterativamente le coppie di gruppi piu simili secondo criteri di legame singolo, legame completo o centroide medio. La struttura ad albero risultante consente di esplorare l'organizzazione tematica della collezione a diversi livelli di granularita.

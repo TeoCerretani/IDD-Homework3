@@ -1,0 +1,1 @@
+La classificazione densa a livello di singolo pixel associa ogni punto dell'immagine alla corrispondente categoria semantica mediante reti codificatore-decodificatore simmetriche. I collegamenti trasversali recuperano i dettagli spaziali fini persi durante i sottocampionamenti.

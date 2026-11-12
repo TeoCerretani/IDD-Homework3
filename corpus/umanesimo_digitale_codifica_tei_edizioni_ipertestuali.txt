@@ -1,0 +1,1 @@
+L'applicazione delle metodologie informatiche agli studi umanistici utilizza schemi di marcatura dichiarativa per rappresentare apparati critici, varianti manoscritte e concordanze lessicali consultabili dinamicamente.
