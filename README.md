@@ -2,13 +2,13 @@
 
 **Autore:** Matteo Cerretani (`mat.cerretani@stud.uniroma3.it` – `matteo.cerretani@gmail.com`)  
 **Corso:** Ingegneria dei Dati – Università degli Studi Roma Tre  
-**Relazione Scientifica (PDF):** [Relazione_HW3_Cerretani.pdf](./Relazione_HW3_Cerretani.pdf)
+**Relazione (PDF):** [Relazione_HW3_Cerretani.pdf](./Relazione_HW3_Cerretani.pdf)
 
 ---
 
 ## Descrizione del Progetto
 
-Il progetto implementa e valuta sperimentalmente un sistema di Information Retrieval in **Java 20** basato su **Apache Lucene 9.12.0** per l'indicizzazione e l'interrogazione full-text da console di una collezione strutturata su larga scala di **600 file testuali (`.txt`)** in lingua italiana (`corpus/`, 169.081 byte complessivi), articolata in **8 domini tematici bilanciati da 75 documenti ciascuno** con *ground truth* (*qrels*) nota per la valutazione di *Precision* ($P@10$), *Recall* ($R@10$ e $R_{\text{tot}}$), $F_1$-score, *Average Precision ($AP$)* e *Mean Average Precision ($MAP$)*.
+Il progetto implementa e valuta un sistema di Information Retrieval in **Java 20** basato su **Apache Lucene 9.12.0** per l'indicizzazione e la ricerca full-text da console su una collezione di **600 file di testo (`.txt`)** in lingua italiana (`corpus/`, 169.081 byte complessivi), suddivisa in **8 aree tematiche da 75 documenti ciascuna** per la valutazione di *Precision* ($P@10$), *Recall* ($R@10$ e $R_{\text{tot}}$), $F_1$-score e *Mean Average Precision ($MAP$)*.
 
 Ciascun file viene modellato come un'istanza di `Document` composta da due campi `TextField` distinti (a ciascuno dei quali corrisponde una *posting list* separata), gestiti mediante un `PerFieldAnalyzerWrapper` condiviso tra la fase di indicizzazione (`FileIndexer`) e la fase di ricerca (`ConsoleSearcher`):
 

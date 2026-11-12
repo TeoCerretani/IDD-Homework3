@@ -32,9 +32,9 @@ public class FileIndexer {
     public static final String CAMPO_CONTENUTO = "contenuto";
 
     /**
-     * Definisce gli analyzer per ciascun campo (Slide 22, 26, 29):
+     * Definisce gli analyzer per ciascun campo:
      * - "nome": CustomAnalyzer con whitespace, wordDelimiterGraph e lowercase
-     * - "contenuto": ItalianAnalyzer per il testo discorsivo in italiano
+     * - "contenuto": ItalianAnalyzer per il testo in lingua italiana
      */
     public static Analyzer getAnalyzer() throws IOException {
         Analyzer nomeAnalyzer = CustomAnalyzer.builder()

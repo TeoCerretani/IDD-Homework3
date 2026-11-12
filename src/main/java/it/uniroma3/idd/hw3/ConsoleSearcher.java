@@ -30,7 +30,7 @@ public class ConsoleSearcher {
 
     /**
      * Analizza la stringa inserita dall'utente (che inizia con "nome" o "contenuto")
-     * e restituisce l'oggetto Query tramite il QueryParser di Lucene (Slide 38 e 45).
+     * e restituisce l'oggetto Query tramite il QueryParser di Lucene.
      */
     public static Query parseQuery(String inputLine, Analyzer perFieldAnalyzer) throws ParseException {
         String[] parts = inputLine.trim().split("\\s+", 2);
@@ -49,7 +49,7 @@ public class ConsoleSearcher {
     }
 
     /**
-     * Esegue la query sull'indice e stampa i documenti trovati (Slide 43, 44, 45).
+     * Esegue la query sull'indice e stampa i documenti trovati.
      */
     public static TopDocs runQuery(IndexSearcher searcher, Query query) throws IOException {
         TopDocs hits = searcher.search(query, 10);

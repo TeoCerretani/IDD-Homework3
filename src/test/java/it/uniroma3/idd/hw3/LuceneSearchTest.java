@@ -41,9 +41,9 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
 
 /**
- * Suite sperimentale JUnit 5 per la verifica dell'indicizzazione su 200 documenti,
- * delle 12 query di benchmark, dei tempi di indicizzazione (Default Codec vs SimpleTextCodec)
- * e dello studio di ablazione con metriche di Information Retrieval (Precision, Recall, F1, AP, MAP).
+ * Test JUnit 5 per la verifica dell'indicizzazione sui 600 documenti del corpus,
+ * delle 12 query di test, dei tempi di indicizzazione e delle metriche di valutazione
+ * (Precision, Recall, F1, AP, MAP).
  */
 class LuceneSearchTest {
 
@@ -201,8 +201,8 @@ class LuceneSearchTest {
     }
 
     /**
-     * Benchmark sperimentale sui tempi di indicizzazione al crescere di N (Slide 34: Default Codec vs SimpleTextCodec)
-     * e studio di ablazione sulle metriche di Information Retrieval (Precision, Recall, F1, AP, MAP).
+     * Valutazione dei tempi di indicizzazione al crescere di N (DefaultCodec vs SimpleTextCodec)
+     * e confronto delle metriche di Information Retrieval (Precision, Recall, F1, AP, MAP).
      */
     @Test
     void testExperimentalBenchmarksAndAblationStudy(@TempDir Path benchDir) throws Exception {
@@ -211,7 +211,7 @@ class LuceneSearchTest {
         Arrays.sort(allFiles, Comparator.comparing(File::getName));
         assertEquals(600, allFiles.length);
 
-        System.out.println("\n=== BENCHMARK TEMPI DI INDICIZZAZIONE (Slide 34: Default vs SimpleTextCodec) ===");
+        System.out.println("\n=== TEMPI DI INDICIZZAZIONE (DefaultCodec vs SimpleTextCodec) ===");
         // Warm-up JVM JIT e classloading dei Codec
         measureIndexingTime(allFiles, 50, benchDir.resolve("warmup_def"), false);
         measureIndexingTime(allFiles, 50, benchDir.resolve("warmup_st"), true);
@@ -263,7 +263,7 @@ class LuceneSearchTest {
                         "indice_invertito_lucene", "catalogo_metadati_data_governance"))
         );
 
-        System.out.println("\n=== STUDIO DI ABLAZIONE (Slide 22-29, 46-48) ===");
+        System.out.println("\n=== CONFRONTO CONFIGURAZIONI (ANALYZER E SIMILARITY) ===");
         evaluateConfig("A. PerField(Custom+Italian) + BM25Similarity",
                 FileIndexer.getAnalyzer(), new BM25Similarity(), allFiles, benchDir.resolve("ablation_A"), benchmark, true);
         evaluateConfig("B. PerField(Custom+Italian) + ClassicSimilarity (TF-IDF)",
@@ -321,7 +321,7 @@ class LuceneSearchTest {
         s.setSimilarity(similarity);
         StoredFields sf = s.storedFields();
 
-        double sumP = 0, sumR10 = 0, sumR200 = 0, sumF1 = 0, sumAP = 0;
+        double sumP = 0, sumR10 = 0, sumRTot = 0, sumF1 = 0, sumAP = 0;
         int count = rawCases.size();
 
         for (Object obj : rawCases) {
@@ -360,7 +360,7 @@ class LuceneSearchTest {
 
             sumP += p;
             sumR10 += r10;
-            sumR200 += rAll;
+            sumRTot += rAll;
             sumF1 += f1;
             sumAP += ap;
 
@@ -379,7 +379,7 @@ class LuceneSearchTest {
 
         System.out.printf(Locale.US,
                 "Config [%s] -> Macro-P@10=%.3f | Macro-R@10=%.3f | Macro-R_tot=%.3f | Macro-F1=%.3f | MAP=%.3f%n",
-                label, sumP / count, sumR10 / count, sumR200 / count, sumF1 / count, sumAP / count);
+                label, sumP / count, sumR10 / count, sumRTot / count, sumF1 / count, sumAP / count);
 
         r.close();
         dir.close();
