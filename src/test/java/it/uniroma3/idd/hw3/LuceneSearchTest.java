@@ -55,6 +55,8 @@ class LuceneSearchTest {
     private static IndexSearcher searcher;
     private static Analyzer perFieldAnalyzer;
 
+    private record QueryCase(String id, String queryStr, Set<String> groundTruth) {}
+
     @BeforeAll
     static void setUp() throws Exception {
         int count = FileIndexer.indexDocs("corpus", tempIndexDir.toString());
@@ -205,7 +207,7 @@ class LuceneSearchTest {
      * e confronto delle metriche di Information Retrieval (Precision, Recall, F1, AP, MAP).
      */
     @Test
-    void testExperimentalBenchmarksAndAblationStudy(@TempDir Path benchDir) throws Exception {
+    void testIndexingTimesAndConfigurationsComparison(@TempDir Path benchDir) throws Exception {
         File[] allFiles = new File("corpus").listFiles((d, name) -> name.toLowerCase().endsWith(".txt"));
         assertNotNull(allFiles);
         Arrays.sort(allFiles, Comparator.comparing(File::getName));
@@ -224,7 +226,6 @@ class LuceneSearchTest {
                     n, timeDefault, timeSimpleText);
         }
 
-        record QueryCase(String id, String queryStr, Set<String> groundTruth) {}
         List<QueryCase> benchmark = List.of(
                 new QueryCase("Q1", "nome marte", Set.of(
                         "atmosfera-marziana-marte", "esplorazione-spaziale-marte",
@@ -299,7 +300,7 @@ class LuceneSearchTest {
     }
 
     private static void evaluateConfig(String label, Analyzer analyzer, Similarity similarity,
-            File[] allFiles, Path idxPath, List<?> rawCases, boolean printPerQuery) throws Exception {
+            File[] allFiles, Path idxPath, List<QueryCase> cases, boolean printPerQuery) throws Exception {
         Directory dir = FSDirectory.open(idxPath);
         IndexWriterConfig config = new IndexWriterConfig(analyzer);
         config.setSimilarity(similarity);
@@ -322,14 +323,12 @@ class LuceneSearchTest {
         StoredFields sf = s.storedFields();
 
         double sumP = 0, sumR10 = 0, sumRTot = 0, sumF1 = 0, sumAP = 0;
-        int count = rawCases.size();
+        int count = cases.size();
 
-        for (Object obj : rawCases) {
-            var m = obj.getClass().getRecordComponents();
-            String id = (String) m[0].getAccessor().invoke(obj);
-            String qStr = (String) m[1].getAccessor().invoke(obj);
-            @SuppressWarnings("unchecked")
-            Set<String> rel = (Set<String>) m[2].getAccessor().invoke(obj);
+        for (QueryCase qc : cases) {
+            String id = qc.id();
+            String qStr = qc.queryStr();
+            Set<String> rel = qc.groundTruth();
 
             Query q = ConsoleSearcher.parseQuery(qStr, analyzer);
             TopDocs top10 = s.search(q, 10);
@@ -366,7 +365,7 @@ class LuceneSearchTest {
 
             if (printPerQuery) {
                 System.out.printf(Locale.US,
-                        "  %s | |R|=%d | |A@10|=%2d | |A_tot|=%2d | TP@10=%d | TP_tot=%d | P@10=%.3f | R@10=%.3f | R_tot=%.3f | F1=%.3f | AP=%.3f%n",
+                        "  %s | |R|=%d | |A|=%2d | |A_tot|=%2d | TP=%d | TP_tot=%d | P@10=%.3f | R@10=%.3f | R_tot=%.3f | F1=%.3f | AP=%.3f%n",
                         id, rel.size(), top10.scoreDocs.length, topAll.scoreDocs.length, tp10, tpAll, p, r10, rAll, f1, ap);
                 if (id.equals("Q11")) {
                     for (int i = 0; i < topAll.scoreDocs.length; i++) {

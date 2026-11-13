@@ -6,6 +6,8 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Map;
 
 import org.apache.lucene.analysis.Analyzer;
@@ -72,6 +74,7 @@ public class FileIndexer {
         int count = 0;
 
         if (files != null) {
+            Arrays.sort(files, Comparator.comparing(File::getName));
             for (File file : files) {
                 if (file.isFile() && file.getName().toLowerCase().endsWith(".txt")) {
                     String nomeFile = file.getName().substring(0, file.getName().length() - 4);

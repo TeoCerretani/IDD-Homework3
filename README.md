@@ -17,7 +17,7 @@ Ciascun file viene modellato come un'istanza di `Document` composta da due campi
   2. `WordDelimiterGraphFilter` (`addTokenFilter("wordDelimiterGraph")`), posizionato *prima* del filtro lowercase per segmentare sia i separatori intraparola (`-`, `_`, `.`) sia le transizioni *CamelCase* (es. `RetiNeurali_DeepLearning` $\rightarrow$ `reti`, `neurali`, `deep`, `learning`)
   3. `LowerCaseFilter` (`addTokenFilter("lowercase")`)
 - **Campo `contenuto`** (`Field.Store.NO`): indicizza il corpo testuale integrale del file mediante **`ItalianAnalyzer`**, applicando tokenizzazione standard, rimozione delle elisioni apostrofate (es. `L'architettura`), filtraggio delle stopword italiane e stemming morfologico leggero (`ItalianLightStemFilter`).
-- **Persistenza e Ranking**: i segmenti dell'indice sono serializzati in formato diagnostico leggibile tramite **`SimpleTextCodec`** (con azzeramento iniziale tramite `writer.deleteAll()` e consolidamento mediante `writer.commit()`), mentre la valutazione della rilevanza a tempo di ricerca adotta il modello probabilistico **Okapi BM25** (`BM25Similarity`, $k_1 = 1.2, b = 0.75$), confrontato tramite uno studio di ablazione con `ClassicSimilarity` (TF-IDF), `StandardAnalyzer` e `WhitespaceAnalyzer`.
+- **Persistenza e Ranking**: i segmenti dell'indice sono serializzati in formato diagnostico leggibile tramite **`SimpleTextCodec`** (con azzeramento iniziale tramite `writer.deleteAll()` e consolidamento mediante `writer.commit()`), mentre la valutazione della rilevanza a tempo di ricerca adotta il modello probabilistico **Okapi BM25** (`BM25Similarity`, $k_1 = 1.2, b = 0.75$), confrontato con `ClassicSimilarity` (TF-IDF), `StandardAnalyzer` e `WhitespaceAnalyzer`.
 
 ---
 
@@ -31,10 +31,10 @@ IDD-Homework3/
 │   │   ├── FileIndexer.java                     # Modulo di indicizzazione dei file .txt (SimpleTextCodec)
 │   │   └── ConsoleSearcher.java                 # Modulo di ricerca interattiva da console (BM25Similarity)
 │   └── test/java/it/uniroma3/idd/hw3/
-│       └── LuceneSearchTest.java                # Suite JUnit 5: 12 query, benchmark tempi Codec e studio di ablazione
+│       └── LuceneSearchTest.java                # Suite JUnit 5: 12 query, tempi di indicizzazione e confronto configurazioni
 ├── pom.xml                                      # Configurazione Apache Maven (Java 20, Lucene 9.12.0)
-├── RELAZIONE.md                                 # Sorgente Markdown della relazione scientifica
-├── Relazione_HW3_Cerretani.pdf                  # Relazione scientifica completa in formato PDF accademico
+├── RELAZIONE.md                                 # Sorgente Markdown della relazione
+├── Relazione_HW3_Cerretani.pdf                  # Relazione del progetto in formato PDF
 └── README.md                                    # Documentazione del repository
 ```
 
@@ -59,8 +59,8 @@ Avvia l'interfaccia a riga di comando per interrogare l'indice con la sintassi `
 mvn exec:java -Dexec.mainClass="it.uniroma3.idd.hw3.ConsoleSearcher"
 ```
 
-### 3. Esecuzione Automatica dei Test e dello Studio di Ablazione (`LuceneSearchTest`)
-Esegue la suite JUnit 5 che verifica l'indicizzazione dei 600 file, tutte le 12 query sperimentali, il benchmark dei tempi di indicizzazione (`DefaultCodec` vs `SimpleTextCodec` per $N \in \{50, 100, 200, 400, 600\}$) e lo studio di ablazione IR:
+### 3. Esecuzione dei Test JUnit 5 (`LuceneSearchTest`)
+Esegue la suite JUnit 5 che verifica l'indicizzazione dei 600 file, tutte le 12 query di test, i tempi di indicizzazione (`DefaultCodec` vs `SimpleTextCodec` per $N \in \{50, 100, 200, 400, 600\}$) e il confronto tra configurazioni:
 
 ```bash
 mvn test
@@ -70,7 +70,7 @@ mvn test
 
 ## Riepilogo delle 12 Query di Test e Metriche di Valutazione (su 600 Documenti)
 
-| # | Query da console | Query Lucene (`QueryParser`) | $\|R_q\|$ | $\|A@10\|$ | $\|A_{\text{tot}}\|$ | $P@10$ | $R@10$ | $R_{\text{tot}}$ | $F_1$ | $AP$ | Score BM25 (Top-1) |
+| # | Query da console | Query Lucene (`QueryParser`) | $\|R_q\|$ | $\|A\|$ | $\|A_{\text{tot}}\|$ | $P@10$ | $R@10$ | $R_{\text{tot}}$ | $F_1$ | $AP$ | Score BM25 (Top-1) |
 |:-:|---|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **1** | `nome marte` | `nome:marte` | 4 | 3 | 3 | `1.000` | `0.750` | `0.750` | `0.857` | `0.750` | `2.7752` |
 | **2** | `nome "letteratura italiana"` | `nome:"letteratura italiana"` | 3 | 2 | 2 | `1.000` | `0.667` | `0.667` | `0.800` | `0.667` | `5.7318` |
@@ -86,7 +86,7 @@ mvn test
 | **12** | `contenuto il dello nella` | *(vuota)* | 0 | 0 | 0 | — | — | — | — | — | — |
 | **Media** | **Macro-Average / MAP (Q1–Q11)** | — | **44** | **36** | **45** | **0.927** | **0.682** | **0.693** | **0.768** | **0.672** | — |
 
-### Sintesi dello Studio di Ablazione ($N = 600$ documenti)
+### Confronto tra Configurazioni (Analyzer e Similarity, $N = 600$ documenti)
 
 | Configurazione Sperimentale | Analyzer (`nome` / `contenuto`) | `Similarity` | Macro-$P@10$ | Macro-$R@10$ | Macro-$R_{\text{tot}}$ | Macro-$F_1$ | $MAP$ |
 |:---|:---|:---|:---:|:---:|:---:|:---:|:---:|
